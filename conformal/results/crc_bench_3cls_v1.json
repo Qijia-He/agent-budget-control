@@ -1,0 +1,208 @@
+{
+  "n_total": 625,
+  "n_calib": 312,
+  "n_test": 313,
+  "delta": 0.05,
+  "calib_eps_cost": 0.76217006848953,
+  "calib_eps_fail": 0.06928818804450272,
+  "test_argmax": {
+    "cost": 10.46964856230032,
+    "fail": 0.26517571884984026,
+    "solve": 0.7348242811501597
+  },
+  "calib_argmax_cost": 10.567307692307692,
+  "calib_argmax_fail": 0.2564102564102564,
+  "mode_a": [
+    {
+      "C": 3,
+      "target": 2.238,
+      "lambda": 0.03580604900013317,
+      "calib_cost": 2.176282051282051,
+      "calib_fail": 0.5673076923076923,
+      "feasible": true,
+      "test": {
+        "cost": 2.1757188498402558,
+        "fail": 0.5239616613418531,
+        "solve": 0.47603833865814693
+      },
+      "guarantee_held": true
+    },
+    {
+      "C": 4,
+      "target": 3.238,
+      "lambda": 0.026764249259775334,
+      "calib_cost": 3.233974358974359,
+      "calib_fail": 0.5128205128205128,
+      "feasible": true,
+      "test": {
+        "cost": 3.194888178913738,
+        "fail": 0.4792332268370607,
+        "solve": 0.5207667731629393
+      },
+      "guarantee_held": true
+    },
+    {
+      "C": 5,
+      "target": 4.238,
+      "lambda": 0.022127151489257812,
+      "calib_cost": 4.1506410256410255,
+      "calib_fail": 0.47115384615384615,
+      "feasible": true,
+      "test": {
+        "cost": 4.319488817891374,
+        "fail": 0.43769968051118213,
+        "solve": 0.5623003194888179
+      },
+      "guarantee_held": true
+    },
+    {
+      "C": 6,
+      "target": 5.238,
+      "lambda": 0.01872778209772977,
+      "calib_cost": 5.208333333333333,
+      "calib_fail": 0.42628205128205127,
+      "feasible": true,
+      "test": {
+        "cost": 5.303514376996805,
+        "fail": 0.4057507987220447,
+        "solve": 0.5942492012779552
+      },
+      "guarantee_held": true
+    },
+    {
+      "C": 7,
+      "target": 6.238,
+      "lambda": 0.014817866412076082,
+      "calib_cost": 6.19551282051282,
+      "calib_fail": 0.3974358974358974,
+      "feasible": true,
+      "test": {
+        "cost": 6.357827476038339,
+        "fail": 0.3610223642172524,
+        "solve": 0.6389776357827476
+      },
+      "guarantee_held": true
+    },
+    {
+      "C": 8,
+      "target": 7.238,
+      "lambda": 0.012136844071474943,
+      "calib_cost": 7.147435897435898,
+      "calib_fail": 0.358974358974359,
+      "feasible": true,
+      "test": {
+        "cost": 7.306709265175719,
+        "fail": 0.3354632587859425,
+        "solve": 0.6645367412140575
+      },
+      "guarantee_held": true
+    },
+    {
+      "C": 9,
+      "target": 8.238,
+      "lambda": 0.009125977754592896,
+      "calib_cost": 8.064102564102564,
+      "calib_fail": 0.3269230769230769,
+      "feasible": true,
+      "test": {
+        "cost": 8.220447284345047,
+        "fail": 0.30990415335463256,
+        "solve": 0.6900958466453675
+      },
+      "guarantee_held": true
+    },
+    {
+      "C": 10,
+      "target": 9.238,
+      "lambda": 0.006209611892700195,
+      "calib_cost": 9.227564102564102,
+      "calib_fail": 0.28846153846153844,
+      "feasible": true,
+      "test": {
+        "cost": 9.23961661341853,
+        "fail": 0.28434504792332266,
+        "solve": 0.7156549520766773
+      },
+      "guarantee_held": true
+    },
+    {
+      "C": 11,
+      "target": 10.238,
+      "lambda": 0.0021793761036612773,
+      "calib_cost": 10.10897435897436,
+      "calib_fail": 0.26282051282051283,
+      "feasible": true,
+      "test": {
+        "cost": 10.188498402555911,
+        "fail": 0.2747603833865815,
+        "solve": 0.7252396166134185
+      },
+      "guarantee_held": true
+    },
+    {
+      "C": 12,
+      "target": 11.238,
+      "lambda": 0.0,
+      "calib_cost": 10.567307692307692,
+      "calib_fail": 0.2564102564102564,
+      "feasible": true,
+      "test": {
+        "cost": 10.46964856230032,
+        "fail": 0.26517571884984026,
+        "solve": 0.7348242811501597
+      },
+      "guarantee_held": true
+    }
+  ],
+  "mode_b": [
+    {
+      "alpha": 0.3,
+      "feasible": false,
+      "test": null
+    },
+    {
+      "alpha": 0.35,
+      "feasible": false,
+      "test": null
+    },
+    {
+      "alpha": 0.4,
+      "feasible": false,
+      "test": null
+    },
+    {
+      "alpha": 0.45,
+      "feasible": false,
+      "test": null
+    },
+    {
+      "alpha": 0.5,
+      "feasible": false,
+      "test": null
+    },
+    {
+      "alpha": 0.55,
+      "feasible": false,
+      "test": null
+    },
+    {
+      "alpha": 0.6,
+      "feasible": false,
+      "test": null
+    },
+    {
+      "alpha": 0.65,
+      "target": 0.581,
+      "lambda": 0.06880187852816148,
+      "calib_fail": 0.5801282051282052,
+      "calib_cost": 2.0,
+      "feasible": true,
+      "test": {
+        "cost": 2.0,
+        "fail": 0.5399361022364217,
+        "solve": 0.46006389776357826
+      },
+      "guarantee_held": true
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+[
+  {
+    "file": "holdout_3cls_bench.json",
+    "cls_acc": 0.534,
+    "solve_rate": NaN,
+    "n": 1176,
+    "n_sa": 0
+  }
+]

@@ -1,0 +1,9 @@
+[
+  {
+    "file": "router_no_reason_v1_3cls_bench_random.json",
+    "cls_acc": 0.6006,
+    "solve_rate": 0.814,
+    "n": 328,
+    "n_sa": 328
+  }
+]

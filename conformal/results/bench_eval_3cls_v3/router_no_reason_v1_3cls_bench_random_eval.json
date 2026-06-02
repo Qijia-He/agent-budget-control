@@ -1,0 +1,5171 @@
+{
+  "file": "router_no_reason_v1_3cls_bench_random.json",
+  "n_total": 328,
+  "n_with_sa": 328,
+  "cls_acc": 0.5457317073170732,
+  "solve_rate": 0.774390243902439,
+  "per_label": {
+    "replan": {
+      "cls_correct": 24,
+      "total": 89,
+      "solve_correct": 67,
+      "solve_total": 89
+    },
+    "reflect": {
+      "cls_correct": 27,
+      "total": 88,
+      "solve_correct": 64,
+      "solve_total": 88
+    },
+    "escalate": {
+      "cls_correct": 128,
+      "total": 151,
+      "solve_correct": 123,
+      "solve_total": 151
+    }
+  },
+  "examples": [
+    {
+      "idx": 0,
+      "true_label": "replan",
+      "pred": "escalate",
+      "probs": {
+        "reflect": 0.14093974232673645,
+        "replan": 0.3757038414478302,
+        "escalate": 0.48335641622543335
+      },
+      "cls_ok": 0,
+      "solve_ok": 0,
+      "successful_actions": [
+        "replan"
+      ]
+    },
+    {
+      "idx": 1,
+      "true_label": "reflect",
+      "pred": "escalate",
+      "probs": {
+        "reflect": 0.15716512501239777,
+        "replan": 0.3951130509376526,
+        "escalate": 0.4477217495441437
+      },
+      "cls_ok": 0,
+      "solve_ok": 0,
+      "successful_actions": [
+        "reflect",
+        "replan"
+      ]
+    },
+    {
+      "idx": 2,
+      "true_label": "escalate",
+      "pred": "escalate",
+      "probs": {
+        "reflect": 0.15087111294269562,
+        "replan": 0.4117153286933899,
+        "escalate": 0.4374135136604309
+      },
+      "cls_ok": 1,
+      "solve_ok": 1,
+      "successful_actions": [
+        "escalate"
+      ]
+    },
+    {
+      "idx": 3,
+      "true_label": "reflect",
+      "pred": "reflect",
+      "probs": {
+        "reflect": 0.725158154964447,
+        "replan": 0.1899092048406601,
+        "escalate": 0.08493264764547348
+      },
+      "cls_ok": 1,
+      "solve_ok": 1,
+      "successful_actions": [
+        "reflect",
+        "replan"
+      ]
+    },
+    {
+      "idx": 4,
+      "true_label": "reflect",
+      "pred": "escalate",
+      "probs": {
+        "reflect": 0.2609371542930603,
+        "replan": 0.289961576461792,
+        "escalate": 0.4491012692451477
+      },
+      "cls_ok": 0,
+      "solve_ok": 1,
+      "successful_actions": [
+        "reflect",
+        "escalate",
+        "escalate"
+      ]
+    },
+    {
+      "idx": 5,
+      "true_label": "escalate",
+      "pred": "escalate",
+      "probs": {
+        "reflect": 0.14334118366241455,
+        "replan": 0.40201032161712646,
+        "escalate": 0.45464852452278137
+      },
+      "cls_ok": 1,
+      "solve_ok": 1,
+      "successful_actions": [
+        "escalate"
+      ]
+    },
+    {
+      "idx": 6,
+      "true_label": "replan",
+      "pred": "escalate",
+      "probs": {
+        "reflect": 0.15716512501239777,
+        "replan": 0.3951130509376526,
+        "escalate": 0.4477217495441437
+      },
+      "cls_ok": 0,
+      "solve_ok": 0,
+      "successful_actions": []
+    },
+    {
+      "idx": 7,
+      "true_label": "replan",
+      "pred": "escalate",
+      "probs": {
+        "reflect": 0.13018862903118134,
+        "replan": 0.3416641354560852,
+        "escalate": 0.5281472206115723
+      },
+      "cls_ok": 0,
+      "solve_ok": 0,
+      "successful_actions": [
+        "replan"
+      ]
+    },
+    {
+      "idx": 8,
+      "true_label": "escalate",
+      "pred": "escalate",
+      "probs": {
+        "reflect": 0.1501142382621765,
+        "replan": 0.4112531840801239,
+        "escalate": 0.438632607460022
+      },
+      "cls_ok": 1,
+      "solve_ok": 0,
+      "successful_actions": []
+    },
+    {
+      "idx": 9,
+      "true_label": "replan",
+      "pred": "escalate",
+      "probs": {
+        "reflect": 0.11102163046598434,
+        "replan": 0.40293994545936584,
+        "escalate": 0.48603835701942444
+      },
+      "cls_ok": 0,
+      "solve_ok": 0,
+      "successful_actions": [
+        "replan"
+      ]
+    },
+    {
+      "idx": 10,
+      "true_label": "replan",
+      "pred": "escalate",
+      "probs": {
+        "reflect": 0.14093974232673645,
+        "replan": 0.3757038414478302,
+        "escalate": 0.48335641622543335
+      },
+      "cls_ok": 0,
+      "solve_ok": 1,
+      "successful_actions": [
+        "replan",
+        "escalate",
+        "escalate"
+      ]
+    },
+    {
+      "idx": 11,
+      "true_label": "replan",
+      "pred": "escalate",
+      "probs": {
+        "reflect": 0.1353040337562561,
+        "replan": 0.39151519536972046,
+        "escalate": 0.47318074107170105
+      },
+      "cls_ok": 0,
+      "solve_ok": 1,
+      "successful_actions": [
+        "replan",
+        "escalate"
+      ]
+    },
+    {
+      "idx": 12,
+      "true_label": "escalate",
+      "pred": "escalate",
+      "probs": {
+        "reflect": 0.12845535576343536,
+        "replan": 0.38200175762176514,
+        "escalate": 0.4895428717136383
+      },
+      "cls_ok": 1,
+      "solve_ok": 1,
+      "successful_actions": [
+        "escalate"
+      ]
+    },
+    {
+      "idx": 13,
+      "true_label": "escalate",
+      "pred": "replan",
+      "probs": {
+        "reflect": 0.1307528018951416,
+        "replan": 0.4346236288547516,
+        "escalate": 0.4346236288547516
+      },
+      "cls_ok": 0,
+      "solve_ok": 0,
+      "successful_actions": [
+        "escalate"
+      ]
+    },
+    {
+      "idx": 14,
+      "true_label": "reflect",
+      "pred": "reflect",
+      "probs": {
+        "reflect": 0.36880746483802795,
+        "replan": 0.2666817605495453,
+        "escalate": 0.36451074481010437
+      },
+      "cls_ok": 1,
+      "solve_ok": 1,
+      "successful_actions": [
+        "reflect"
+      ]
+    },
+    {
+      "idx": 15,
+      "true_label": "replan",
+      "pred": "replan",
+      "probs": {
+        "reflect": 0.15794268250465393,
+        "replan": 0.42102867364883423,
+        "escalate": 0.42102867364883423
+      },
+      "cls_ok": 1,
+      "solve_ok": 1,
+      "successful_actions": [
+        "replan",
+        "escalate",
+        "escalate"
+      ]
+    },
+    {
+      "idx": 16,
+      "true_label": "replan",
+      "pred": "escalate",
+      "probs": {
+        "reflect": 0.14334118366241455,
+        "replan": 0.40201032161712646,
+        "escalate": 0.45464852452278137
+      },
+      "cls_ok": 0,
+      "solve_ok": 1,
+      "successful_actions": [
+        "replan",
+        "escalate",
+        "escalate"
+      ]
+    },
+    {
+      "idx": 17,
+      "true_label": "replan",
+      "pred": "replan",
+      "probs": {
+        "reflect": 0.22038237750530243,
+        "replan": 0.43828269839286804,
+        "escalate": 0.34133490920066833
+      },
+      "cls_ok": 1,
+      "solve_ok": 0,
+      "successful_actions": []
+    },
+    {
+      "idx": 18,
+      "true_label": "escalate",
+      "pred": "escalate",
+      "probs": {
+        "reflect": 0.1277737319469452,
+        "replan": 0.3814619183540344,
+        "escalate": 0.4907643795013428
+      },
+      "cls_ok": 1,
+      "solve_ok": 1,
+      "successful_actions": [
+        "escalate"
+      ]
+    },
+    {
+      "idx": 19,
+      "true_label": "escalate",
+      "pred": "escalate",
+      "probs": {
+        "reflect": 0.23550201952457428,
+        "replan": 0.27748921513557434,
+        "escalate": 0.4870086908340454
+      },
+      "cls_ok": 1,
+      "solve_ok": 1,
+      "successful_actions": [
+        "escalate"
+      ]
+    },
+    {
+      "idx": 20,
+      "true_label": "reflect",
+      "pred": "replan",
+      "probs": {
+        "reflect": 0.28891482949256897,
+        "replan": 0.38877740502357483,
+        "escalate": 0.3223077654838562
+      },
+      "cls_ok": 0,
+      "solve_ok": 1,
+      "successful_actions": [
+        "reflect",
+        "replan",
+        "escalate",
+        "escalate"
+      ]
+    },
+    {
+      "idx": 21,
+      "true_label": "replan",
+      "pred": "replan",
+      "probs": {
+        "reflect": 0.18216601014137268,
+        "replan": 0.40891698002815247,
+        "escalate": 0.40891698002815247
+      },
+      "cls_ok": 1,
+      "solve_ok": 1,
+      "successful_actions": [
+        "replan"
+      ]
+    },
+    {
+      "idx": 22,
+      "true_label": "reflect",
+      "pred": "escalate",
+      "probs": {
+        "reflect": 0.24845123291015625,
+        "replan": 0.28374022245407104,
+        "escalate": 0.4678085446357727
+      },
+      "cls_ok": 0,
+      "solve_ok": 1,
+      "successful_actions": [
+        "reflect",
+        "escalate",
+        "escalate"
+      ]
+    },
+    {
+      "idx": 23,
+      "true_label": "escalate",
+      "pred": "escalate",
+      "probs": {
+        "reflect": 0.15716512501239777,
+        "replan": 0.3951130509376526,
+        "escalate": 0.4477217495441437
+      },
+      "cls_ok": 1,
+      "solve_ok": 1,
+      "successful_actions": [
+        "escalate"
+      ]
+    },
+    {
+      "idx": 24,
+      "true_label": "escalate",
+      "pred": "escalate",
+      "probs": {
+        "reflect": 0.15087111294269562,
+        "replan": 0.4117153286933899,
+        "escalate": 0.4374135136604309
+      },
+      "cls_ok": 1,
+      "solve_ok": 1,
+      "successful_actions": [
+        "escalate"
+      ]
+    },
+    {
+      "idx": 25,
+      "true_label": "replan",
+      "pred": "escalate",
+      "probs": {
+        "reflect": 0.1225893646478653,
+        "replan": 0.39727216958999634,
+        "escalate": 0.48013854026794434
+      },
+      "cls_ok": 0,
+      "solve_ok": 1,
+      "successful_actions": [
+        "replan",
+        "escalate",
+        "escalate"
+      ]
+    },
+    {
+      "idx": 26,
+      "true_label": "escalate",
+      "pred": "escalate",
+      "probs": {
+        "reflect": 0.15087111294269562,
+        "replan": 0.4117153286933899,
+        "escalate": 0.4374135136604309
+      },
+      "cls_ok": 1,
+      "solve_ok": 1,
+      "successful_actions": [
+        "escalate"
+      ]
+    },
+    {
+      "idx": 27,
+      "true_label": "replan",
+      "pred": "escalate",
+      "probs": {
+        "reflect": 0.1277737319469452,
+        "replan": 0.3814619183540344,
+        "escalate": 0.4907643795013428
+      },
+      "cls_ok": 0,
+      "solve_ok": 1,
+      "successful_actions": [
+        "replan",
+        "escalate",
+        "escalate"
+      ]
+    },
+    {
+      "idx": 28,
+      "true_label": "escalate",
+      "pred": "escalate",
+      "probs": {
+        "reflect": 0.12565501034259796,
+        "replan": 0.3565622568130493,
+        "escalate": 0.5177827477455139
+      },
+      "cls_ok": 1,
+      "solve_ok": 1,
+      "successful_actions": [
+        "escalate"
+      ]
+    },
+    {
+      "idx": 29,
+      "true_label": "escalate",
+      "pred": "reflect",
+      "probs": {
+        "reflect": 0.38311460614204407,
+        "replan": 0.2891900837421417,
+        "escalate": 0.3276952803134918
+      },
+      "cls_ok": 0,
+      "solve_ok": 0,
+      "successful_actions": [
+        "escalate"
+      ]
+    },
+    {
+      "idx": 30,
+      "true_label": "escalate",
+      "pred": "escalate",
+      "probs": {
+        "reflect": 0.11310224235057831,
+        "replan": 0.3608449697494507,
+        "escalate": 0.5260527729988098
+      },
+      "cls_ok": 1,
+      "solve_ok": 1,
+      "successful_actions": [
+        "escalate"
+      ]
+    },
+    {
+      "idx": 31,
+      "true_label": "replan",
+      "pred": "replan",
+      "probs": {
+        "reflect": 0.25799646973609924,
+        "replan": 0.41713693737983704,
+        "escalate": 0.32486656308174133
+      },
+      "cls_ok": 1,
+      "solve_ok": 1,
+      "successful_actions": [
+        "replan",
+        "escalate",
+        "escalate"
+      ]
+    },
+    {
+      "idx": 32,
+      "true_label": "escalate",
+      "pred": "escalate",
+      "probs": {
+        "reflect": 0.14334118366241455,
+        "replan": 0.40201032161712646,
+        "escalate": 0.45464852452278137
+      },
+      "cls_ok": 1,
+      "solve_ok": 1,
+      "successful_actions": [
+        "proceed",
+        "reflect",
+        "replan",
+        "escalate"
+      ]
+    },
+    {
+      "idx": 33,
+      "true_label": "escalate",
+      "pred": "escalate",
+      "probs": {
+        "reflect": 0.1225893646478653,
+        "replan": 0.39727216958999634,
+        "escalate": 0.48013854026794434
+      },
+      "cls_ok": 1,
+      "solve_ok": 1,
+      "successful_actions": [
+        "escalate"
+      ]
+    },
+    {
+      "idx": 34,
+      "true_label": "reflect",
+      "pred": "reflect",
+      "probs": {
+        "reflect": 0.5243916511535645,
+        "replan": 0.20777538418769836,
+        "escalate": 0.26783302426338196
+      },
+      "cls_ok": 1,
+      "solve_ok": 1,
+      "successful_actions": [
+        "reflect"
+      ]
+    },
+    {
+      "idx": 35,
+      "true_label": "reflect",
+      "pred": "escalate",
+      "probs": {
+        "reflect": 0.15087111294269562,
+        "replan": 0.4117153286933899,
+        "escalate": 0.4374135136604309
+      },
+      "cls_ok": 0,
+      "solve_ok": 1,
+      "successful_actions": [
+        "reflect",
+        "replan",
+        "escalate",
+        "escalate"
+      ]
+    },
+    {
+      "idx": 36,
+      "true_label": "reflect",
+      "pred": "replan",
+      "probs": {
+        "reflect": 0.15794268250465393,
+        "replan": 0.42102867364883423,
+        "escalate": 0.42102867364883423
+      },
+      "cls_ok": 0,
+      "solve_ok": 0,
+      "successful_actions": [
+        "reflect"
+      ]
+    },
+    {
+      "idx": 37,
+      "true_label": "escalate",
+      "pred": "replan",
+      "probs": {
+        "reflect": 0.1810818314552307,
+        "replan": 0.4218510091304779,
+        "escalate": 0.397067129611969
+      },
+      "cls_ok": 0,
+      "solve_ok": 0,
+      "successful_actions": [
+        "escalate"
+      ]
+    },
+    {
+      "idx": 38,
+      "true_label": "escalate",
+      "pred": "escalate",
+      "probs": {
+        "reflect": 0.1383599042892456,
+        "replan": 0.3384544551372528,
+        "escalate": 0.523185670375824
+      },
+      "cls_ok": 1,
+      "solve_ok": 1,
+      "successful_actions": [
+        "escalate"
+      ]
+    },
+    {
+      "idx": 39,
+      "true_label": "replan",
+      "pred": "escalate",
+      "probs": {
+        "reflect": 0.15716512501239777,
+        "replan": 0.3951130509376526,
+        "escalate": 0.4477217495441437
+      },
+      "cls_ok": 0,
+      "solve_ok": 0,
+      "successful_actions": [
+        "reflect",
+        "replan"
+      ]
+    },
+    {
+      "idx": 40,
+      "true_label": "escalate",
+      "pred": "escalate",
+      "probs": {
+        "reflect": 0.13303318619728088,
+        "replan": 0.365884393453598,
+        "escalate": 0.5010823607444763
+      },
+      "cls_ok": 1,
+      "solve_ok": 1,
+      "successful_actions": [
+        "escalate"
+      ]
+    },
+    {
+      "idx": 41,
+      "true_label": "escalate",
+      "pred": "escalate",
+      "probs": {
+        "reflect": 0.11310224235057831,
+        "replan": 0.3608449697494507,
+        "escalate": 0.5260527729988098
+      },
+      "cls_ok": 1,
+      "solve_ok": 1,
+      "successful_actions": [
+        "escalate"
+      ]
+    },
+    {
+      "idx": 42,
+      "true_label": "escalate",
+      "pred": "escalate",
+      "probs": {
+        "reflect": 0.1353040337562561,
+        "replan": 0.39151519536972046,
+        "escalate": 0.47318074107170105
+      },
+      "cls_ok": 1,
+      "solve_ok": 1,
+      "successful_actions": [
+        "escalate"
+      ]
+    },
+    {
+      "idx": 43,
+      "true_label": "escalate",
+      "pred": "replan",
+      "probs": {
+        "reflect": 0.28891482949256897,
+        "replan": 0.38877740502357483,
+        "escalate": 0.3223077654838562
+      },
+      "cls_ok": 0,
+      "solve_ok": 0,
+      "successful_actions": [
+        "escalate"
+      ]
+    },
+    {
+      "idx": 44,
+      "true_label": "reflect",
+      "pred": "reflect",
+      "probs": {
+        "reflect": 0.37761449813842773,
+        "replan": 0.25351837277412415,
+        "escalate": 0.36886706948280334
+      },
+      "cls_ok": 1,
+      "solve_ok": 1,
+      "successful_actions": [
+        "reflect",
+        "escalate",
+        "escalate"
+      ]
+    },
+    {
+      "idx": 45,
+      "true_label": "escalate",
+      "pred": "escalate",
+      "probs": {
+        "reflect": 0.1156720295548439,
+        "replan": 0.38675448298454285,
+        "escalate": 0.49757346510887146
+      },
+      "cls_ok": 1,
+      "solve_ok": 1,
+      "successful_actions": [
+        "escalate"
+      ]
+    },
+    {
+      "idx": 46,
+      "true_label": "replan",
+      "pred": "escalate",
+      "probs": {
+        "reflect": 0.10911273956298828,
+        "replan": 0.3764039874076843,
+        "escalate": 0.5144832134246826
+      },
+      "cls_ok": 0,
+      "solve_ok": 1,
+      "successful_actions": [
+        "replan",
+        "escalate",
+        "escalate"
+      ]
+    },
+    {
+      "idx": 47,
+      "true_label": "escalate",
+      "pred": "replan",
+      "probs": {
+        "reflect": 0.2659972012042999,
+        "replan": 0.42423292994499207,
+        "escalate": 0.3097698390483856
+      },
+      "cls_ok": 0,
+      "solve_ok": 0,
+      "successful_actions": [
+        "escalate"
+      ]
+    },
+    {
+      "idx": 48,
+      "true_label": "escalate",
+      "pred": "escalate",
+      "probs": {
+        "reflect": 0.16769707202911377,
+        "replan": 0.30247625708580017,
+        "escalate": 0.5298265814781189
+      },
+      "cls_ok": 1,
+      "solve_ok": 1,
+      "successful_actions": [
+        "escalate"
+      ]
+    },
+    {
+      "idx": 49,
+      "true_label": "escalate",
+      "pred": "replan",
+      "probs": {
+        "reflect": 0.2556626796722412,
+        "replan": 0.3837951421737671,
+        "escalate": 0.3605421781539917
+      },
+      "cls_ok": 0,
+      "solve_ok": 0,
+      "successful_actions": [
+        "escalate"
+      ]
+    },
+    {
+      "idx": 50,
+      "true_label": "escalate",
+      "pred": "escalate",
+      "probs": {
+        "reflect": 0.1156720295548439,
+        "replan": 0.38675448298454285,
+        "escalate": 0.49757346510887146
+      },
+      "cls_ok": 1,
+      "solve_ok": 1,
+      "successful_actions": [
+        "escalate"
+      ]
+    },
+    {
+      "idx": 51,
+      "true_label": "escalate",
+      "pred": "escalate",
+      "probs": {
+        "reflect": 0.1298675537109375,
+        "replan": 0.40790989995002747,
+        "escalate": 0.46222248673439026
+      },
+      "cls_ok": 1,
+      "solve_ok": 1,
+      "successful_actions": [
+        "escalate"
+      ]
+    },
+    {
+      "idx": 52,
+      "true_label": "reflect",
+      "pred": "replan",
+      "probs": {
+        "reflect": 0.2857241630554199,
+        "replan": 0.41249099373817444,
+        "escalate": 0.301784873008728
+      },
+      "cls_ok": 0,
+      "solve_ok": 0,
+      "successful_actions": [
+        "reflect",
+        "escalate"
+      ]
+    },
+    {
+      "idx": 53,
+      "true_label": "replan",
+      "pred": "escalate",
+      "probs": {
+        "reflect": 0.1225893646478653,
+        "replan": 0.39727216958999634,
+        "escalate": 0.48013854026794434
+      },
+      "cls_ok": 0,
+      "solve_ok": 1,
+      "successful_actions": [
+        "replan",
+        "escalate",
+        "escalate"
+      ]
+    },
+    {
+      "idx": 54,
+      "true_label": "escalate",
+      "pred": "escalate",
+      "probs": {
+        "reflect": 0.13316339254379272,
+        "replan": 0.36624249815940857,
+        "escalate": 0.5005941390991211
+      },
+      "cls_ok": 1,
+      "solve_ok": 1,
+      "successful_actions": [
+        "escalate"
+      ]
+    },
+    {
+      "idx": 55,
+      "true_label": "reflect",
+      "pred": "reflect",
+      "probs": {
+        "reflect": 0.4683867394924164,
+        "replan": 0.20906676352024078,
+        "escalate": 0.3225465416908264
+      },
+      "cls_ok": 1,
+      "solve_ok": 1,
+      "successful_actions": [
+        "reflect",
+        "replan",
+        "escalate",
+        "escalate"
+      ]
+    },
+    {
+      "idx": 56,
+      "true_label": "reflect",
+      "pred": "escalate",
+      "probs": {
+        "reflect": 0.14093974232673645,
+        "replan": 0.3757038414478302,
+        "escalate": 0.48335641622543335
+      },
+      "cls_ok": 0,
+      "solve_ok": 0,
+      "successful_actions": [
+        "reflect"
+      ]
+    },
+    {
+      "idx": 57,
+      "true_label": "reflect",
+      "pred": "escalate",
+      "probs": {
+        "reflect": 0.3558468818664551,
+        "replan": 0.2623850405216217,
+        "escalate": 0.38176798820495605
+      },
+      "cls_ok": 0,
+      "solve_ok": 1,
+      "successful_actions": [
+        "reflect",
+        "replan",
+        "escalate",
+        "escalate"
+      ]
+    },
+    {
+      "idx": 58,
+      "true_label": "replan",
+      "pred": "escalate",
+      "probs": {
+        "reflect": 0.1353040337562561,
+        "replan": 0.39151519536972046,
+        "escalate": 0.47318074107170105
+      },
+      "cls_ok": 0,
+      "solve_ok": 0,
+      "successful_actions": [
+        "replan"
+      ]
+    },
+    {
+      "idx": 59,
+      "true_label": "escalate",
+      "pred": "escalate",
+      "probs": {
+        "reflect": 0.14334118366241455,
+        "replan": 0.40201032161712646,
+        "escalate": 0.45464852452278137
+      },
+      "cls_ok": 1,
+      "solve_ok": 1,
+      "successful_actions": [
+        "escalate"
+      ]
+    },
+    {
+      "idx": 60,
+      "true_label": "reflect",
+      "pred": "escalate",
+      "probs": {
+        "reflect": 0.11759427934885025,
+        "replan": 0.41366350650787354,
+        "escalate": 0.46874216198921204
+      },
+      "cls_ok": 0,
+      "solve_ok": 0,
+      "successful_actions": [
+        "reflect"
+      ]
+    },
+    {
+      "idx": 61,
+      "true_label": "reflect",
+      "pred": "escalate",
+      "probs": {
+        "reflect": 0.14334118366241455,
+        "replan": 0.40201032161712646,
+        "escalate": 0.45464852452278137
+      },
+      "cls_ok": 0,
+      "solve_ok": 0,
+      "successful_actions": [
+        "reflect"
+      ]
+    },
+    {
+      "idx": 62,
+      "true_label": "escalate",
+      "pred": "escalate",
+      "probs": {
+        "reflect": 0.1353040337562561,
+        "replan": 0.39151519536972046,
+        "escalate": 0.47318074107170105
+      },
+      "cls_ok": 1,
+      "solve_ok": 1,
+      "successful_actions": [
+        "escalate"
+      ]
+    },
+    {
+      "idx": 63,
+      "true_label": "escalate",
+      "pred": "escalate",
+      "probs": {
+        "reflect": 0.14093974232673645,
+        "replan": 0.3757038414478302,
+        "escalate": 0.48335641622543335
+      },
+      "cls_ok": 1,
+      "solve_ok": 1,
+      "successful_actions": [
+        "escalate"
+      ]
+    },
+    {
+      "idx": 64,
+      "true_label": "reflect",
+      "pred": "reflect",
+      "probs": {
+        "reflect": 0.5326117873191833,
+        "replan": 0.1974736899137497,
+        "escalate": 0.26991450786590576
+      },
+      "cls_ok": 1,
+      "solve_ok": 1,
+      "successful_actions": [
+        "reflect"
+      ]
+    },
+    {
+      "idx": 65,
+      "true_label": "replan",
+      "pred": "escalate",
+      "probs": {
+        "reflect": 0.1432138979434967,
+        "replan": 0.40165331959724426,
+        "escalate": 0.4551328420639038
+      },
+      "cls_ok": 0,
+      "solve_ok": 0,
+      "successful_actions": []
+    },
+    {
+      "idx": 66,
+      "true_label": "reflect",
+      "pred": "replan",
+      "probs": {
+        "reflect": 0.17303894460201263,
+        "replan": 0.4134805500507355,
+        "escalate": 0.4134805500507355
+      },
+      "cls_ok": 0,
+      "solve_ok": 1,
+      "successful_actions": [
+        "reflect",
+        "replan"
+      ]
+    },
+    {
+      "idx": 67,
+      "true_label": "reflect",
+      "pred": "replan",
+      "probs": {
+        "reflect": 0.40091270208358765,
+        "replan": 0.5198339223861694,
+        "escalate": 0.07925337553024292
+      },
+      "cls_ok": 0,
+      "solve_ok": 1,
+      "successful_actions": [
+        "reflect",
+        "replan"
+      ]
+    },
+    {
+      "idx": 68,
+      "true_label": "escalate",
+      "pred": "escalate",
+      "probs": {
+        "reflect": 0.14334118366241455,
+        "replan": 0.40201032161712646,
+        "escalate": 0.45464852452278137
+      },
+      "cls_ok": 1,
+      "solve_ok": 1,
+      "successful_actions": [
+        "escalate"
+      ]
+    },
+    {
+      "idx": 69,
+      "true_label": "escalate",
+      "pred": "replan",
+      "probs": {
+        "reflect": 0.2059689462184906,
+        "replan": 0.3970155417919159,
+        "escalate": 0.3970155417919159
+      },
+      "cls_ok": 0,
+      "solve_ok": 0,
+      "successful_actions": [
+        "escalate"
+      ]
+    },
+    {
+      "idx": 70,
+      "true_label": "replan",
+      "pred": "escalate",
+      "probs": {
+        "reflect": 0.13863740861415863,
+        "replan": 0.3512679934501648,
+        "escalate": 0.5100946426391602
+      },
+      "cls_ok": 0,
+      "solve_ok": 1,
+      "successful_actions": [
+        "replan",
+        "escalate"
+      ]
+    },
+    {
+      "idx": 71,
+      "true_label": "replan",
+      "pred": "escalate",
+      "probs": {
+        "reflect": 0.15716512501239777,
+        "replan": 0.3951130509376526,
+        "escalate": 0.4477217495441437
+      },
+      "cls_ok": 0,
+      "solve_ok": 1,
+      "successful_actions": [
+        "replan",
+        "escalate"
+      ]
+    },
+    {
+      "idx": 72,
+      "true_label": "escalate",
+      "pred": "escalate",
+      "probs": {
+        "reflect": 0.26076775789260864,
+        "replan": 0.25772973895072937,
+        "escalate": 0.4815025329589844
+      },
+      "cls_ok": 1,
+      "solve_ok": 1,
+      "successful_actions": [
+        "escalate"
+      ]
+    },
+    {
+      "idx": 73,
+      "true_label": "escalate",
+      "pred": "replan",
+      "probs": {
+        "reflect": 0.17220227420330048,
+        "replan": 0.43973392248153687,
+        "escalate": 0.38806381821632385
+      },
+      "cls_ok": 0,
+      "solve_ok": 1,
+      "successful_actions": [
+        "proceed",
+        "replan",
+        "escalate"
+      ]
+    },
+    {
+      "idx": 74,
+      "true_label": "reflect",
+      "pred": "replan",
+      "probs": {
+        "reflect": 0.384113073348999,
+        "replan": 0.5459347367286682,
+        "escalate": 0.06995218247175217
+      },
+      "cls_ok": 0,
+      "solve_ok": 1,
+      "successful_actions": [
+        "reflect",
+        "replan"
+      ]
+    },
+    {
+      "idx": 75,
+      "true_label": "escalate",
+      "pred": "escalate",
+      "probs": {
+        "reflect": 0.16528534889221191,
+        "replan": 0.404319167137146,
+        "escalate": 0.4303955137729645
+      },
+      "cls_ok": 1,
+      "solve_ok": 0,
+      "successful_actions": []
+    },
+    {
+      "idx": 76,
+      "true_label": "reflect",
+      "pred": "reflect",
+      "probs": {
+        "reflect": 0.507407009601593,
+        "replan": 0.2314021736383438,
+        "escalate": 0.2611907422542572
+      },
+      "cls_ok": 1,
+      "solve_ok": 1,
+      "successful_actions": [
+        "reflect",
+        "replan",
+        "escalate",
+        "escalate"
+      ]
+    },
+    {
+      "idx": 77,
+      "true_label": "reflect",
+      "pred": "escalate",
+      "probs": {
+        "reflect": 0.12062181532382965,
+        "replan": 0.3715413808822632,
+        "escalate": 0.5078368186950684
+      },
+      "cls_ok": 0,
+      "solve_ok": 1,
+      "successful_actions": [
+        "reflect",
+        "escalate",
+        "escalate"
+      ]
+    },
+    {
+      "idx": 78,
+      "true_label": "reflect",
+      "pred": "reflect",
+      "probs": {
+        "reflect": 0.4479215145111084,
+        "replan": 0.2166006863117218,
+        "escalate": 0.33547770977020264
+      },
+      "cls_ok": 1,
+      "solve_ok": 1,
+      "successful_actions": [
+        "reflect",
+        "replan"
+      ]
+    },
+    {
+      "idx": 79,
+      "true_label": "escalate",
+      "pred": "escalate",
+      "probs": {
+        "reflect": 0.1353040337562561,
+        "replan": 0.39151519536972046,
+        "escalate": 0.47318074107170105
+      },
+      "cls_ok": 1,
+      "solve_ok": 1,
+      "successful_actions": [
+        "escalate"
+      ]
+    },
+    {
+      "idx": 80,
+      "true_label": "replan",
+      "pred": "escalate",
+      "probs": {
+        "reflect": 0.14334118366241455,
+        "replan": 0.40201032161712646,
+        "escalate": 0.45464852452278137
+      },
+      "cls_ok": 0,
+      "solve_ok": 1,
+      "successful_actions": [
+        "replan",
+        "escalate"
+      ]
+    },
+    {
+      "idx": 81,
+      "true_label": "reflect",
+      "pred": "escalate",
+      "probs": {
+        "reflect": 0.15087111294269562,
+        "replan": 0.4117153286933899,
+        "escalate": 0.4374135136604309
+      },
+      "cls_ok": 0,
+      "solve_ok": 1,
+      "successful_actions": [
+        "reflect",
+        "escalate"
+      ]
+    },
+    {
+      "idx": 82,
+      "true_label": "reflect",
+      "pred": "replan",
+      "probs": {
+        "reflect": 0.2659972012042999,
+        "replan": 0.42423292994499207,
+        "escalate": 0.3097698390483856
+      },
+      "cls_ok": 0,
+      "solve_ok": 0,
+      "successful_actions": [
+        "reflect",
+        "escalate",
+        "escalate"
+      ]
+    },
+    {
+      "idx": 83,
+      "true_label": "reflect",
+      "pred": "escalate",
+      "probs": {
+        "reflect": 0.18093261122703552,
+        "replan": 0.3967399001121521,
+        "escalate": 0.4223274290561676
+      },
+      "cls_ok": 0,
+      "solve_ok": 1,
+      "successful_actions": [
+        "reflect",
+        "replan",
+        "escalate"
+      ]
+    },
+    {
+      "idx": 84,
+      "true_label": "reflect",
+      "pred": "reflect",
+      "probs": {
+        "reflect": 0.7777782678604126,
+        "replan": 0.1564796268939972,
+        "escalate": 0.06574202328920364
+      },
+      "cls_ok": 1,
+      "solve_ok": 1,
+      "successful_actions": [
+        "reflect"
+      ]
+    },
+    {
+      "idx": 85,
+      "true_label": "reflect",
+      "pred": "reflect",
+      "probs": {
+        "reflect": 0.7035235166549683,
+        "replan": 0.19727858901023865,
+        "escalate": 0.09919790923595428
+      },
+      "cls_ok": 1,
+      "solve_ok": 1,
+      "successful_actions": [
+        "reflect",
+        "replan"
+      ]
+    },
+    {
+      "idx": 86,
+      "true_label": "replan",
+      "pred": "replan",
+      "probs": {
+        "reflect": 0.22273710370063782,
+        "replan": 0.41288936138153076,
+        "escalate": 0.3643735647201538
+      },
+      "cls_ok": 1,
+      "solve_ok": 1,
+      "successful_actions": [
+        "replan",
+        "escalate"
+      ]
+    },
+    {
+      "idx": 87,
+      "true_label": "reflect",
+      "pred": "replan",
+      "probs": {
+        "reflect": 0.14417503774166107,
+        "replan": 0.42791247367858887,
+        "escalate": 0.42791247367858887
+      },
+      "cls_ok": 0,
+      "solve_ok": 0,
+      "successful_actions": []
+    },
+    {
+      "idx": 88,
+      "true_label": "escalate",
+      "pred": "escalate",
+      "probs": {
+        "reflect": 0.3558468818664551,
+        "replan": 0.2623850405216217,
+        "escalate": 0.38176798820495605
+      },
+      "cls_ok": 1,
+      "solve_ok": 1,
+      "successful_actions": [
+        "escalate"
+      ]
+    },
+    {
+      "idx": 89,
+      "true_label": "escalate",
+      "pred": "replan",
+      "probs": {
+        "reflect": 0.24976254999637604,
+        "replan": 0.4101834297180176,
+        "escalate": 0.3400540053844452
+      },
+      "cls_ok": 0,
+      "solve_ok": 0,
+      "successful_actions": [
+        "escalate"
+      ]
+    },
+    {
+      "idx": 90,
+      "true_label": "escalate",
+      "pred": "escalate",
+      "probs": {
+        "reflect": 0.14093974232673645,
+        "replan": 0.3757038414478302,
+        "escalate": 0.48335641622543335
+      },
+      "cls_ok": 1,
+      "solve_ok": 1,
+      "successful_actions": [
+        "escalate"
+      ]
+    },
+    {
+      "idx": 91,
+      "true_label": "escalate",
+      "pred": "escalate",
+      "probs": {
+        "reflect": 0.0799199715256691,
+        "replan": 0.34715649485588074,
+        "escalate": 0.5729235410690308
+      },
+      "cls_ok": 1,
+      "solve_ok": 1,
+      "successful_actions": [
+        "escalate"
+      ]
+    },
+    {
+      "idx": 92,
+      "true_label": "escalate",
+      "pred": "escalate",
+      "probs": {
+        "reflect": 0.12062181532382965,
+        "replan": 0.3715413808822632,
+        "escalate": 0.5078368186950684
+      },
+      "cls_ok": 1,
+      "solve_ok": 1,
+      "successful_actions": [
+        "escalate"
+      ]
+    },
+    {
+      "idx": 93,
+      "true_label": "escalate",
+      "pred": "escalate",
+      "probs": {
+        "reflect": 0.17157518863677979,
+        "replan": 0.2884589433670044,
+        "escalate": 0.5399658679962158
+      },
+      "cls_ok": 1,
+      "solve_ok": 1,
+      "successful_actions": [
+        "escalate"
+      ]
+    },
+    {
+      "idx": 94,
+      "true_label": "reflect",
+      "pred": "escalate",
+      "probs": {
+        "reflect": 0.14334118366241455,
+        "replan": 0.40201032161712646,
+        "escalate": 0.45464852452278137
+      },
+      "cls_ok": 0,
+      "solve_ok": 1,
+      "successful_actions": [
+        "reflect",
+        "replan",
+        "escalate",
+        "escalate"
+      ]
+    },
+    {
+      "idx": 95,
+      "true_label": "reflect",
+      "pred": "escalate",
+      "probs": {
+        "reflect": 0.14334118366241455,
+        "replan": 0.40201032161712646,
+        "escalate": 0.45464852452278137
+      },
+      "cls_ok": 0,
+      "solve_ok": 0,
+      "successful_actions": [
+        "reflect",
+        "replan"
+      ]
+    },
+    {
+      "idx": 96,
+      "true_label": "reflect",
+      "pred": "replan",
+      "probs": {
+        "reflect": 0.30039921402931213,
+        "replan": 0.455377995967865,
+        "escalate": 0.24422280490398407
+      },
+      "cls_ok": 0,
+      "solve_ok": 1,
+      "successful_actions": [
+        "reflect",
+        "replan"
+      ]
+    },
+    {
+      "idx": 97,
+      "true_label": "escalate",
+      "pred": "replan",
+      "probs": {
+        "reflect": 0.23903623223304749,
+        "replan": 0.427795946598053,
+        "escalate": 0.33316782116889954
+      },
+      "cls_ok": 0,
+      "solve_ok": 0,
+      "successful_actions": [
+        "reflect"
+      ]
+    },
+    {
+      "idx": 98,
+      "true_label": "replan",
+      "pred": "escalate",
+      "probs": {
+        "reflect": 0.15716512501239777,
+        "replan": 0.3951130509376526,
+        "escalate": 0.4477217495441437
+      },
+      "cls_ok": 0,
+      "solve_ok": 1,
+      "successful_actions": [
+        "escalate"
+      ]
+    },
+    {
+      "idx": 99,
+      "true_label": "escalate",
+      "pred": "escalate",
+      "probs": {
+        "reflect": 0.11669977009296417,
+        "replan": 0.38715431094169617,
+        "escalate": 0.49614599347114563
+      },
+      "cls_ok": 1,
+      "solve_ok": 1,
+      "successful_actions": [
+        "escalate"
+      ]
+    },
+    {
+      "idx": 100,
+      "true_label": "replan",
+      "pred": "escalate",
+      "probs": {
+        "reflect": 0.12845535576343536,
+        "replan": 0.38200175762176514,
+        "escalate": 0.4895428717136383
+      },
+      "cls_ok": 0,
+      "solve_ok": 0,
+      "successful_actions": []
+    },
+    {
+      "idx": 101,
+      "true_label": "replan",
+      "pred": "replan",
+      "probs": {
+        "reflect": 0.17303894460201263,
+        "replan": 0.4134805500507355,
+        "escalate": 0.4134805500507355
+      },
+      "cls_ok": 1,
+      "solve_ok": 1,
+      "successful_actions": [
+        "replan",
+        "escalate",
+        "escalate"
+      ]
+    },
+    {
+      "idx": 102,
+      "true_label": "replan",
+      "pred": "escalate",
+      "probs": {
+        "reflect": 0.15087111294269562,
+        "replan": 0.4117153286933899,
+        "escalate": 0.4374135136604309
+      },
+      "cls_ok": 0,
+      "solve_ok": 0,
+      "successful_actions": [
+        "replan"
+      ]
+    },
+    {
+      "idx": 103,
+      "true_label": "replan",
+      "pred": "escalate",
+      "probs": {
+        "reflect": 0.1810818314552307,
+        "replan": 0.397067129611969,
+        "escalate": 0.4218510091304779
+      },
+      "cls_ok": 0,
+      "solve_ok": 1,
+      "successful_actions": [
+        "replan",
+        "escalate",
+        "escalate"
+      ]
+    },
+    {
+      "idx": 104,
+      "true_label": "escalate",
+      "pred": "escalate",
+      "probs": {
+        "reflect": 0.1353040337562561,
+        "replan": 0.39151519536972046,
+        "escalate": 0.47318074107170105
+      },
+      "cls_ok": 1,
+      "solve_ok": 1,
+      "successful_actions": [
+        "escalate"
+      ]
+    },
+    {
+      "idx": 105,
+      "true_label": "replan",
+      "pred": "replan",
+      "probs": {
+        "reflect": 0.31085798144340515,
+        "replan": 0.5434457659721375,
+        "escalate": 0.14569620788097382
+      },
+      "cls_ok": 1,
+      "solve_ok": 1,
+      "successful_actions": [
+        "replan"
+      ]
+    },
+    {
+      "idx": 106,
+      "true_label": "escalate",
+      "pred": "escalate",
+      "probs": {
+        "reflect": 0.13303318619728088,
+        "replan": 0.365884393453598,
+        "escalate": 0.5010823607444763
+      },
+      "cls_ok": 1,
+      "solve_ok": 1,
+      "successful_actions": [
+        "escalate"
+      ]
+    },
+    {
+      "idx": 107,
+      "true_label": "reflect",
+      "pred": "escalate",
+      "probs": {
+        "reflect": 0.1810818314552307,
+        "replan": 0.397067129611969,
+        "escalate": 0.4218510091304779
+      },
+      "cls_ok": 0,
+      "solve_ok": 1,
+      "successful_actions": [
+        "reflect",
+        "replan",
+        "escalate"
+      ]
+    },
+    {
+      "idx": 108,
+      "true_label": "escalate",
+      "pred": "escalate",
+      "probs": {
+        "reflect": 0.10911273956298828,
+        "replan": 0.3764039874076843,
+        "escalate": 0.5144832134246826
+      },
+      "cls_ok": 1,
+      "solve_ok": 1,
+      "successful_actions": [
+        "escalate"
+      ]
+    },
+    {
+      "idx": 109,
+      "true_label": "reflect",
+      "pred": "reflect",
+      "probs": {
+        "reflect": 0.7489439845085144,
+        "replan": 0.1835366189479828,
+        "escalate": 0.06751935184001923
+      },
+      "cls_ok": 1,
+      "solve_ok": 1,
+      "successful_actions": [
+        "reflect",
+        "replan"
+      ]
+    },
+    {
+      "idx": 110,
+      "true_label": "escalate",
+      "pred": "escalate",
+      "probs": {
+        "reflect": 0.14334118366241455,
+        "replan": 0.40201032161712646,
+        "escalate": 0.45464852452278137
+      },
+      "cls_ok": 1,
+      "solve_ok": 1,
+      "successful_actions": [
+        "escalate"
+      ]
+    },
+    {
+      "idx": 111,
+      "true_label": "replan",
+      "pred": "escalate",
+      "probs": {
+        "reflect": 0.1225893646478653,
+        "replan": 0.39727216958999634,
+        "escalate": 0.48013854026794434
+      },
+      "cls_ok": 0,
+      "solve_ok": 1,
+      "successful_actions": [
+        "replan",
+        "escalate",
+        "escalate"
+      ]
+    },
+    {
+      "idx": 112,
+      "true_label": "escalate",
+      "pred": "escalate",
+      "probs": {
+        "reflect": 0.13583627343177795,
+        "replan": 0.40553221106529236,
+        "escalate": 0.45863157510757446
+      },
+      "cls_ok": 1,
+      "solve_ok": 0,
+      "successful_actions": []
+    },
+    {
+      "idx": 113,
+      "true_label": "replan",
+      "pred": "escalate",
+      "probs": {
+        "reflect": 0.0954592302441597,
+        "replan": 0.3546741008758545,
+        "escalate": 0.5498666763305664
+      },
+      "cls_ok": 0,
+      "solve_ok": 0,
+      "successful_actions": [
+        "replan"
+      ]
+    },
+    {
+      "idx": 114,
+      "true_label": "escalate",
+      "pred": "escalate",
+      "probs": {
+        "reflect": 0.2880280613899231,
+        "replan": 0.2684716582298279,
+        "escalate": 0.4435003101825714
+      },
+      "cls_ok": 1,
+      "solve_ok": 1,
+      "successful_actions": [
+        "escalate"
+      ]
+    },
+    {
+      "idx": 115,
+      "true_label": "escalate",
+      "pred": "replan",
+      "probs": {
+        "reflect": 0.1970914602279663,
+        "replan": 0.413995623588562,
+        "escalate": 0.3889128863811493
+      },
+      "cls_ok": 0,
+      "solve_ok": 0,
+      "successful_actions": [
+        "escalate"
+      ]
+    },
+    {
+      "idx": 116,
+      "true_label": "reflect",
+      "pred": "escalate",
+      "probs": {
+        "reflect": 0.15087111294269562,
+        "replan": 0.4117153286933899,
+        "escalate": 0.4374135136604309
+      },
+      "cls_ok": 0,
+      "solve_ok": 1,
+      "successful_actions": [
+        "reflect",
+        "replan",
+        "escalate",
+        "escalate"
+      ]
+    },
+    {
+      "idx": 117,
+      "true_label": "escalate",
+      "pred": "escalate",
+      "probs": {
+        "reflect": 0.14679129421710968,
+        "replan": 0.36048465967178345,
+        "escalate": 0.49272409081459045
+      },
+      "cls_ok": 1,
+      "solve_ok": 1,
+      "successful_actions": [
+        "escalate"
+      ]
+    },
+    {
+      "idx": 118,
+      "true_label": "escalate",
+      "pred": "escalate",
+      "probs": {
+        "reflect": 0.1061251237988472,
+        "replan": 0.3507000505924225,
+        "escalate": 0.5431748628616333
+      },
+      "cls_ok": 1,
+      "solve_ok": 1,
+      "successful_actions": [
+        "escalate"
+      ]
+    },
+    {
+      "idx": 119,
+      "true_label": "escalate",
+      "pred": "escalate",
+      "probs": {
+        "reflect": 0.1298675537109375,
+        "replan": 0.40790989995002747,
+        "escalate": 0.46222248673439026
+      },
+      "cls_ok": 1,
+      "solve_ok": 1,
+      "successful_actions": [
+        "escalate"
+      ]
+    },
+    {
+      "idx": 120,
+      "true_label": "replan",
+      "pred": "replan",
+      "probs": {
+        "reflect": 0.19693207740783691,
+        "replan": 0.41446954011917114,
+        "escalate": 0.38859838247299194
+      },
+      "cls_ok": 1,
+      "solve_ok": 1,
+      "successful_actions": [
+        "replan",
+        "escalate",
+        "escalate"
+      ]
+    },
+    {
+      "idx": 121,
+      "true_label": "reflect",
+      "pred": "reflect",
+      "probs": {
+        "reflect": 0.6289367079734802,
+        "replan": 0.15114647150039673,
+        "escalate": 0.21991682052612305
+      },
+      "cls_ok": 1,
+      "solve_ok": 1,
+      "successful_actions": [
+        "reflect",
+        "escalate",
+        "escalate"
+      ]
+    },
+    {
+      "idx": 122,
+      "true_label": "escalate",
+      "pred": "escalate",
+      "probs": {
+        "reflect": 0.1156720295548439,
+        "replan": 0.38675448298454285,
+        "escalate": 0.49757346510887146
+      },
+      "cls_ok": 1,
+      "solve_ok": 1,
+      "successful_actions": [
+        "escalate"
+      ]
+    },
+    {
+      "idx": 123,
+      "true_label": "escalate",
+      "pred": "escalate",
+      "probs": {
+        "reflect": 0.1620217114686966,
+        "replan": 0.31598636507987976,
+        "escalate": 0.5219919681549072
+      },
+      "cls_ok": 1,
+      "solve_ok": 1,
+      "successful_actions": [
+        "escalate"
+      ]
+    },
+    {
+      "idx": 124,
+      "true_label": "escalate",
+      "pred": "replan",
+      "probs": {
+        "reflect": 0.18925383687019348,
+        "replan": 0.40537312626838684,
+        "escalate": 0.40537312626838684
+      },
+      "cls_ok": 0,
+      "solve_ok": 0,
+      "successful_actions": [
+        "escalate"
+      ]
+    },
+    {
+      "idx": 125,
+      "true_label": "escalate",
+      "pred": "escalate",
+      "probs": {
+        "reflect": 0.1225893646478653,
+        "replan": 0.39727216958999634,
+        "escalate": 0.48013854026794434
+      },
+      "cls_ok": 1,
+      "solve_ok": 0,
+      "successful_actions": []
+    },
+    {
+      "idx": 126,
+      "true_label": "replan",
+      "pred": "escalate",
+      "probs": {
+        "reflect": 0.14924892783164978,
+        "replan": 0.38561299443244934,
+        "escalate": 0.4651380777359009
+      },
+      "cls_ok": 0,
+      "solve_ok": 0,
+      "successful_actions": [
+        "replan"
+      ]
+    },
+    {
+      "idx": 127,
+      "true_label": "replan",
+      "pred": "escalate",
+      "probs": {
+        "reflect": 0.12062181532382965,
+        "replan": 0.3715413808822632,
+        "escalate": 0.5078368186950684
+      },
+      "cls_ok": 0,
+      "solve_ok": 1,
+      "successful_actions": [
+        "replan",
+        "escalate"
+      ]
+    },
+    {
+      "idx": 128,
+      "true_label": "replan",
+      "pred": "replan",
+      "probs": {
+        "reflect": 0.2415989339351654,
+        "replan": 0.4383344352245331,
+        "escalate": 0.3200666010379791
+      },
+      "cls_ok": 1,
+      "solve_ok": 1,
+      "successful_actions": [
+        "replan",
+        "escalate"
+      ]
+    },
+    {
+      "idx": 129,
+      "true_label": "escalate",
+      "pred": "escalate",
+      "probs": {
+        "reflect": 0.19297584891319275,
+        "replan": 0.2700217664241791,
+        "escalate": 0.5370023846626282
+      },
+      "cls_ok": 1,
+      "solve_ok": 1,
+      "successful_actions": [
+        "escalate"
+      ]
+    },
+    {
+      "idx": 130,
+      "true_label": "escalate",
+      "pred": "escalate",
+      "probs": {
+        "reflect": 0.13680632412433624,
+        "replan": 0.4181138277053833,
+        "escalate": 0.44507986307144165
+      },
+      "cls_ok": 1,
+      "solve_ok": 1,
+      "successful_actions": [
+        "proceed",
+        "escalate"
+      ]
+    },
+    {
+      "idx": 131,
+      "true_label": "replan",
+      "pred": "escalate",
+      "probs": {
+        "reflect": 0.10233357548713684,
+        "replan": 0.365649551153183,
+        "escalate": 0.532016932964325
+      },
+      "cls_ok": 0,
+      "solve_ok": 1,
+      "successful_actions": [
+        "replan",
+        "escalate",
+        "escalate"
+      ]
+    },
+    {
+      "idx": 132,
+      "true_label": "replan",
+      "pred": "escalate",
+      "probs": {
+        "reflect": 0.11310224235057831,
+        "replan": 0.3608449697494507,
+        "escalate": 0.5260527729988098
+      },
+      "cls_ok": 0,
+      "solve_ok": 1,
+      "successful_actions": [
+        "replan",
+        "escalate"
+      ]
+    },
+    {
+      "idx": 133,
+      "true_label": "reflect",
+      "pred": "escalate",
+      "probs": {
+        "reflect": 0.14093974232673645,
+        "replan": 0.3757038414478302,
+        "escalate": 0.48335641622543335
+      },
+      "cls_ok": 0,
+      "solve_ok": 1,
+      "successful_actions": [
+        "reflect",
+        "replan",
+        "escalate",
+        "escalate"
+      ]
+    },
+    {
+      "idx": 134,
+      "true_label": "escalate",
+      "pred": "replan",
+      "probs": {
+        "reflect": 0.17303894460201263,
+        "replan": 0.4134805500507355,
+        "escalate": 0.4134805500507355
+      },
+      "cls_ok": 0,
+      "solve_ok": 0,
+      "successful_actions": [
+        "escalate"
+      ]
+    },
+    {
+      "idx": 135,
+      "true_label": "replan",
+      "pred": "escalate",
+      "probs": {
+        "reflect": 0.1353040337562561,
+        "replan": 0.39151519536972046,
+        "escalate": 0.47318074107170105
+      },
+      "cls_ok": 0,
+      "solve_ok": 1,
+      "successful_actions": [
+        "replan",
+        "escalate",
+        "escalate"
+      ]
+    },
+    {
+      "idx": 136,
+      "true_label": "replan",
+      "pred": "escalate",
+      "probs": {
+        "reflect": 0.1225893646478653,
+        "replan": 0.39727216958999634,
+        "escalate": 0.48013854026794434
+      },
+      "cls_ok": 0,
+      "solve_ok": 1,
+      "successful_actions": [
+        "replan",
+        "escalate",
+        "escalate"
+      ]
+    },
+    {
+      "idx": 137,
+      "true_label": "escalate",
+      "pred": "replan",
+      "probs": {
+        "reflect": 0.35749804973602295,
+        "replan": 0.4098735451698303,
+        "escalate": 0.23262841999530792
+      },
+      "cls_ok": 0,
+      "solve_ok": 0,
+      "successful_actions": [
+        "escalate"
+      ]
+    },
+    {
+      "idx": 138,
+      "true_label": "reflect",
+      "pred": "reflect",
+      "probs": {
+        "reflect": 0.7095665335655212,
+        "replan": 0.1361524760723114,
+        "escalate": 0.15428096055984497
+      },
+      "cls_ok": 1,
+      "solve_ok": 1,
+      "successful_actions": [
+        "reflect",
+        "escalate"
+      ]
+    },
+    {
+      "idx": 139,
+      "true_label": "reflect",
+      "pred": "replan",
+      "probs": {
+        "reflect": 0.17303894460201263,
+        "replan": 0.4134805500507355,
+        "escalate": 0.4134805500507355
+      },
+      "cls_ok": 0,
+      "solve_ok": 1,
+      "successful_actions": [
+        "proceed",
+        "replan",
+        "escalate"
+      ]
+    },
+    {
+      "idx": 140,
+      "true_label": "replan",
+      "pred": "reflect",
+      "probs": {
+        "reflect": 0.6153740286827087,
+        "replan": 0.16839827597141266,
+        "escalate": 0.2162276655435562
+      },
+      "cls_ok": 0,
+      "solve_ok": 0,
+      "successful_actions": [
+        "replan"
+      ]
+    },
+    {
+      "idx": 141,
+      "true_label": "replan",
+      "pred": "escalate",
+      "probs": {
+        "reflect": 0.15087111294269562,
+        "replan": 0.4117153286933899,
+        "escalate": 0.4374135136604309
+      },
+      "cls_ok": 0,
+      "solve_ok": 1,
+      "successful_actions": [
+        "replan",
+        "escalate",
+        "escalate"
+      ]
+    },
+    {
+      "idx": 142,
+      "true_label": "escalate",
+      "pred": "escalate",
+      "probs": {
+        "reflect": 0.1298675537109375,
+        "replan": 0.40790989995002747,
+        "escalate": 0.46222248673439026
+      },
+      "cls_ok": 1,
+      "solve_ok": 0,
+      "successful_actions": []
+    },
+    {
+      "idx": 143,
+      "true_label": "escalate",
+      "pred": "escalate",
+      "probs": {
+        "reflect": 0.0954592302441597,
+        "replan": 0.3546741008758545,
+        "escalate": 0.5498666763305664
+      },
+      "cls_ok": 1,
+      "solve_ok": 1,
+      "successful_actions": [
+        "escalate"
+      ]
+    },
+    {
+      "idx": 144,
+      "true_label": "replan",
+      "pred": "escalate",
+      "probs": {
+        "reflect": 0.08576243370771408,
+        "replan": 0.35826346278190613,
+        "escalate": 0.5559741258621216
+      },
+      "cls_ok": 0,
+      "solve_ok": 1,
+      "successful_actions": [
+        "replan",
+        "escalate",
+        "escalate"
+      ]
+    },
+    {
+      "idx": 145,
+      "true_label": "reflect",
+      "pred": "escalate",
+      "probs": {
+        "reflect": 0.16352957487106323,
+        "replan": 0.37873533368110657,
+        "escalate": 0.457735151052475
+      },
+      "cls_ok": 0,
+      "solve_ok": 0,
+      "successful_actions": [
+        "reflect"
+      ]
+    },
+    {
+      "idx": 146,
+      "true_label": "reflect",
+      "pred": "escalate",
+      "probs": {
+        "reflect": 0.14924892783164978,
+        "replan": 0.38561299443244934,
+        "escalate": 0.4651380777359009
+      },
+      "cls_ok": 0,
+      "solve_ok": 1,
+      "successful_actions": [
+        "reflect",
+        "replan",
+        "escalate",
+        "escalate"
+      ]
+    },
+    {
+      "idx": 147,
+      "true_label": "replan",
+      "pred": "escalate",
+      "probs": {
+        "reflect": 0.10911273956298828,
+        "replan": 0.3764039874076843,
+        "escalate": 0.5144832134246826
+      },
+      "cls_ok": 0,
+      "solve_ok": 1,
+      "successful_actions": [
+        "replan",
+        "escalate",
+        "escalate"
+      ]
+    },
+    {
+      "idx": 148,
+      "true_label": "escalate",
+      "pred": "escalate",
+      "probs": {
+        "reflect": 0.10911273956298828,
+        "replan": 0.3764039874076843,
+        "escalate": 0.5144832134246826
+      },
+      "cls_ok": 1,
+      "solve_ok": 1,
+      "successful_actions": [
+        "escalate"
+      ]
+    },
+    {
+      "idx": 149,
+      "true_label": "reflect",
+      "pred": "escalate",
+      "probs": {
+        "reflect": 0.16528534889221191,
+        "replan": 0.404319167137146,
+        "escalate": 0.4303955137729645
+      },
+      "cls_ok": 0,
+      "solve_ok": 1,
+      "successful_actions": [
+        "reflect",
+        "replan",
+        "escalate",
+        "escalate"
+      ]
+    },
+    {
+      "idx": 150,
+      "true_label": "escalate",
+      "pred": "escalate",
+      "probs": {
+        "reflect": 0.1156720295548439,
+        "replan": 0.38675448298454285,
+        "escalate": 0.49757346510887146
+      },
+      "cls_ok": 1,
+      "solve_ok": 1,
+      "successful_actions": [
+        "escalate"
+      ]
+    },
+    {
+      "idx": 151,
+      "true_label": "escalate",
+      "pred": "escalate",
+      "probs": {
+        "reflect": 0.12062181532382965,
+        "replan": 0.3715413808822632,
+        "escalate": 0.5078368186950684
+      },
+      "cls_ok": 1,
+      "solve_ok": 1,
+      "successful_actions": [
+        "escalate"
+      ]
+    },
+    {
+      "idx": 152,
+      "true_label": "reflect",
+      "pred": "reflect",
+      "probs": {
+        "reflect": 0.4688730537891388,
+        "replan": 0.20887549221515656,
+        "escalate": 0.32225143909454346
+      },
+      "cls_ok": 1,
+      "solve_ok": 1,
+      "successful_actions": [
+        "reflect"
+      ]
+    },
+    {
+      "idx": 153,
+      "true_label": "escalate",
+      "pred": "escalate",
+      "probs": {
+        "reflect": 0.12845535576343536,
+        "replan": 0.38200175762176514,
+        "escalate": 0.4895428717136383
+      },
+      "cls_ok": 1,
+      "solve_ok": 1,
+      "successful_actions": [
+        "escalate"
+      ]
+    },
+    {
+      "idx": 154,
+      "true_label": "escalate",
+      "pred": "escalate",
+      "probs": {
+        "reflect": 0.1172376349568367,
+        "replan": 0.34592920541763306,
+        "escalate": 0.5368331074714661
+      },
+      "cls_ok": 1,
+      "solve_ok": 1,
+      "successful_actions": [
+        "escalate"
+      ]
+    },
+    {
+      "idx": 155,
+      "true_label": "reflect",
+      "pred": "escalate",
+      "probs": {
+        "reflect": 0.13863740861415863,
+        "replan": 0.3512679934501648,
+        "escalate": 0.5100946426391602
+      },
+      "cls_ok": 0,
+      "solve_ok": 1,
+      "successful_actions": [
+        "reflect",
+        "escalate",
+        "escalate"
+      ]
+    },
+    {
+      "idx": 156,
+      "true_label": "reflect",
+      "pred": "escalate",
+      "probs": {
+        "reflect": 0.1765115112066269,
+        "replan": 0.2755305767059326,
+        "escalate": 0.5479579567909241
+      },
+      "cls_ok": 0,
+      "solve_ok": 1,
+      "successful_actions": [
+        "reflect",
+        "replan",
+        "escalate",
+        "escalate"
+      ]
+    },
+    {
+      "idx": 157,
+      "true_label": "replan",
+      "pred": "escalate",
+      "probs": {
+        "reflect": 0.11102163046598434,
+        "replan": 0.40293994545936584,
+        "escalate": 0.48603835701942444
+      },
+      "cls_ok": 0,
+      "solve_ok": 1,
+      "successful_actions": [
+        "replan",
+        "escalate",
+        "escalate"
+      ]
+    },
+    {
+      "idx": 158,
+      "true_label": "escalate",
+      "pred": "escalate",
+      "probs": {
+        "reflect": 0.1886093020439148,
+        "replan": 0.3183384835720062,
+        "escalate": 0.49305227398872375
+      },
+      "cls_ok": 1,
+      "solve_ok": 1,
+      "successful_actions": [
+        "escalate"
+      ]
+    },
+    {
+      "idx": 159,
+      "true_label": "replan",
+      "pred": "escalate",
+      "probs": {
+        "reflect": 0.16528534889221191,
+        "replan": 0.404319167137146,
+        "escalate": 0.4303955137729645
+      },
+      "cls_ok": 0,
+      "solve_ok": 1,
+      "successful_actions": [
+        "replan",
+        "escalate"
+      ]
+    },
+    {
+      "idx": 160,
+      "true_label": "escalate",
+      "pred": "escalate",
+      "probs": {
+        "reflect": 0.14093974232673645,
+        "replan": 0.3757038414478302,
+        "escalate": 0.48335641622543335
+      },
+      "cls_ok": 1,
+      "solve_ok": 1,
+      "successful_actions": [
+        "escalate"
+      ]
+    },
+    {
+      "idx": 161,
+      "true_label": "reflect",
+      "pred": "replan",
+      "probs": {
+        "reflect": 0.21300432085990906,
+        "replan": 0.43028056621551514,
+        "escalate": 0.3567151129245758
+      },
+      "cls_ok": 0,
+      "solve_ok": 1,
+      "successful_actions": [
+        "reflect",
+        "replan"
+      ]
+    },
+    {
+      "idx": 162,
+      "true_label": "escalate",
+      "pred": "escalate",
+      "probs": {
+        "reflect": 0.09205912053585052,
+        "replan": 0.36983463168144226,
+        "escalate": 0.5381062030792236
+      },
+      "cls_ok": 1,
+      "solve_ok": 1,
+      "successful_actions": [
+        "escalate"
+      ]
+    },
+    {
+      "idx": 163,
+      "true_label": "reflect",
+      "pred": "reflect",
+      "probs": {
+        "reflect": 0.694455623626709,
+        "replan": 0.1337745189666748,
+        "escalate": 0.1717698723077774
+      },
+      "cls_ok": 1,
+      "solve_ok": 1,
+      "successful_actions": [
+        "reflect",
+        "replan",
+        "escalate",
+        "escalate"
+      ]
+    },
+    {
+      "idx": 164,
+      "true_label": "replan",
+      "pred": "escalate",
+      "probs": {
+        "reflect": 0.19935813546180725,
+        "replan": 0.32612815499305725,
+        "escalate": 0.4745136499404907
+      },
+      "cls_ok": 0,
+      "solve_ok": 0,
+      "successful_actions": [
+        "replan"
+      ]
+    },
+    {
+      "idx": 165,
+      "true_label": "reflect",
+      "pred": "escalate",
+      "probs": {
+        "reflect": 0.16528534889221191,
+        "replan": 0.404319167137146,
+        "escalate": 0.4303955137729645
+      },
+      "cls_ok": 0,
+      "solve_ok": 1,
+      "successful_actions": [
+        "reflect",
+        "replan",
+        "escalate",
+        "escalate"
+      ]
+    },
+    {
+      "idx": 166,
+      "true_label": "escalate",
+      "pred": "escalate",
+      "probs": {
+        "reflect": 0.14093974232673645,
+        "replan": 0.3757038414478302,
+        "escalate": 0.48335641622543335
+      },
+      "cls_ok": 1,
+      "solve_ok": 1,
+      "successful_actions": [
+        "escalate"
+      ]
+    },
+    {
+      "idx": 167,
+      "true_label": "escalate",
+      "pred": "escalate",
+      "probs": {
+        "reflect": 0.09823214262723923,
+        "replan": 0.3810010850429535,
+        "escalate": 0.5207667350769043
+      },
+      "cls_ok": 1,
+      "solve_ok": 1,
+      "successful_actions": [
+        "escalate"
+      ]
+    },
+    {
+      "idx": 168,
+      "true_label": "replan",
+      "pred": "escalate",
+      "probs": {
+        "reflect": 0.1353040337562561,
+        "replan": 0.39151519536972046,
+        "escalate": 0.47318074107170105
+      },
+      "cls_ok": 0,
+      "solve_ok": 1,
+      "successful_actions": [
+        "replan",
+        "escalate",
+        "escalate"
+      ]
+    },
+    {
+      "idx": 169,
+      "true_label": "escalate",
+      "pred": "escalate",
+      "probs": {
+        "reflect": 0.3680751919746399,
+        "replan": 0.23857732117176056,
+        "escalate": 0.39334750175476074
+      },
+      "cls_ok": 1,
+      "solve_ok": 1,
+      "successful_actions": [
+        "escalate"
+      ]
+    },
+    {
+      "idx": 170,
+      "true_label": "escalate",
+      "pred": "escalate",
+      "probs": {
+        "reflect": 0.15716512501239777,
+        "replan": 0.3951130509376526,
+        "escalate": 0.4477217495441437
+      },
+      "cls_ok": 1,
+      "solve_ok": 1,
+      "successful_actions": [
+        "escalate"
+      ]
+    },
+    {
+      "idx": 171,
+      "true_label": "escalate",
+      "pred": "escalate",
+      "probs": {
+        "reflect": 0.20971903204917908,
+        "replan": 0.2640761137008667,
+        "escalate": 0.5262048244476318
+      },
+      "cls_ok": 1,
+      "solve_ok": 1,
+      "successful_actions": [
+        "escalate"
+      ]
+    },
+    {
+      "idx": 172,
+      "true_label": "escalate",
+      "pred": "escalate",
+      "probs": {
+        "reflect": 0.1298675537109375,
+        "replan": 0.40790989995002747,
+        "escalate": 0.46222248673439026
+      },
+      "cls_ok": 1,
+      "solve_ok": 1,
+      "successful_actions": [
+        "escalate"
+      ]
+    },
+    {
+      "idx": 173,
+      "true_label": "escalate",
+      "pred": "escalate",
+      "probs": {
+        "reflect": 0.1298675537109375,
+        "replan": 0.40790989995002747,
+        "escalate": 0.46222248673439026
+      },
+      "cls_ok": 1,
+      "solve_ok": 1,
+      "successful_actions": [
+        "escalate"
+      ]
+    },
+    {
+      "idx": 174,
+      "true_label": "escalate",
+      "pred": "escalate",
+      "probs": {
+        "reflect": 0.15716512501239777,
+        "replan": 0.3951130509376526,
+        "escalate": 0.4477217495441437
+      },
+      "cls_ok": 1,
+      "solve_ok": 1,
+      "successful_actions": [
+        "escalate"
+      ]
+    },
+    {
+      "idx": 175,
+      "true_label": "escalate",
+      "pred": "escalate",
+      "probs": {
+        "reflect": 0.13316339254379272,
+        "replan": 0.36624249815940857,
+        "escalate": 0.5005941390991211
+      },
+      "cls_ok": 1,
+      "solve_ok": 1,
+      "successful_actions": [
+        "escalate"
+      ]
+    },
+    {
+      "idx": 176,
+      "true_label": "replan",
+      "pred": "escalate",
+      "probs": {
+        "reflect": 0.16769707202911377,
+        "replan": 0.30247625708580017,
+        "escalate": 0.5298265814781189
+      },
+      "cls_ok": 0,
+      "solve_ok": 1,
+      "successful_actions": [
+        "proceed",
+        "reflect",
+        "replan",
+        "escalate"
+      ]
+    },
+    {
+      "idx": 177,
+      "true_label": "escalate",
+      "pred": "escalate",
+      "probs": {
+        "reflect": 0.1353040337562561,
+        "replan": 0.39151519536972046,
+        "escalate": 0.47318074107170105
+      },
+      "cls_ok": 1,
+      "solve_ok": 1,
+      "successful_actions": [
+        "escalate"
+      ]
+    },
+    {
+      "idx": 178,
+      "true_label": "escalate",
+      "pred": "escalate",
+      "probs": {
+        "reflect": 0.16352957487106323,
+        "replan": 0.37873533368110657,
+        "escalate": 0.457735151052475
+      },
+      "cls_ok": 1,
+      "solve_ok": 1,
+      "successful_actions": [
+        "escalate",
+        "reflect",
+        "escalate"
+      ]
+    },
+    {
+      "idx": 179,
+      "true_label": "escalate",
+      "pred": "escalate",
+      "probs": {
+        "reflect": 0.09221582859754562,
+        "replan": 0.32949769496917725,
+        "escalate": 0.5782864093780518
+      },
+      "cls_ok": 1,
+      "solve_ok": 1,
+      "successful_actions": [
+        "escalate"
+      ]
+    },
+    {
+      "idx": 180,
+      "true_label": "reflect",
+      "pred": "escalate",
+      "probs": {
+        "reflect": 0.2048434019088745,
+        "replan": 0.3723752498626709,
+        "escalate": 0.422781378030777
+      },
+      "cls_ok": 0,
+      "solve_ok": 0,
+      "successful_actions": []
+    },
+    {
+      "idx": 181,
+      "true_label": "reflect",
+      "pred": "reflect",
+      "probs": {
+        "reflect": 0.5011451244354248,
+        "replan": 0.20367082953453064,
+        "escalate": 0.2951839864253998
+      },
+      "cls_ok": 1,
+      "solve_ok": 1,
+      "successful_actions": [
+        "reflect",
+        "escalate",
+        "escalate"
+      ]
+    },
+    {
+      "idx": 182,
+      "true_label": "reflect",
+      "pred": "escalate",
+      "probs": {
+        "reflect": 0.15716512501239777,
+        "replan": 0.3951130509376526,
+        "escalate": 0.4477217495441437
+      },
+      "cls_ok": 0,
+      "solve_ok": 1,
+      "successful_actions": [
+        "reflect",
+        "replan",
+        "escalate",
+        "escalate"
+      ]
+    },
+    {
+      "idx": 183,
+      "true_label": "replan",
+      "pred": "replan",
+      "probs": {
+        "reflect": 0.30198216438293457,
+        "replan": 0.492083877325058,
+        "escalate": 0.20593394339084625
+      },
+      "cls_ok": 1,
+      "solve_ok": 1,
+      "successful_actions": [
+        "replan",
+        "escalate"
+      ]
+    },
+    {
+      "idx": 184,
+      "true_label": "escalate",
+      "pred": "escalate",
+      "probs": {
+        "reflect": 0.24845123291015625,
+        "replan": 0.28374022245407104,
+        "escalate": 0.4678085446357727
+      },
+      "cls_ok": 1,
+      "solve_ok": 1,
+      "successful_actions": [
+        "escalate"
+      ]
+    },
+    {
+      "idx": 185,
+      "true_label": "replan",
+      "pred": "escalate",
+      "probs": {
+        "reflect": 0.11102163046598434,
+        "replan": 0.40293994545936584,
+        "escalate": 0.48603835701942444
+      },
+      "cls_ok": 0,
+      "solve_ok": 1,
+      "successful_actions": [
+        "replan",
+        "escalate",
+        "escalate"
+      ]
+    },
+    {
+      "idx": 186,
+      "true_label": "replan",
+      "pred": "escalate",
+      "probs": {
+        "reflect": 0.1298675537109375,
+        "replan": 0.40790989995002747,
+        "escalate": 0.46222248673439026
+      },
+      "cls_ok": 0,
+      "solve_ok": 1,
+      "successful_actions": [
+        "replan",
+        "escalate",
+        "escalate"
+      ]
+    },
+    {
+      "idx": 187,
+      "true_label": "escalate",
+      "pred": "escalate",
+      "probs": {
+        "reflect": 0.1156720295548439,
+        "replan": 0.38675448298454285,
+        "escalate": 0.49757346510887146
+      },
+      "cls_ok": 1,
+      "solve_ok": 1,
+      "successful_actions": [
+        "escalate"
+      ]
+    },
+    {
+      "idx": 188,
+      "true_label": "replan",
+      "pred": "escalate",
+      "probs": {
+        "reflect": 0.15716512501239777,
+        "replan": 0.3951130509376526,
+        "escalate": 0.4477217495441437
+      },
+      "cls_ok": 0,
+      "solve_ok": 1,
+      "successful_actions": [
+        "replan",
+        "escalate"
+      ]
+    },
+    {
+      "idx": 189,
+      "true_label": "reflect",
+      "pred": "reflect",
+      "probs": {
+        "reflect": 0.5448543429374695,
+        "replan": 0.2133680135011673,
+        "escalate": 0.24177764356136322
+      },
+      "cls_ok": 1,
+      "solve_ok": 1,
+      "successful_actions": [
+        "reflect",
+        "escalate",
+        "escalate"
+      ]
+    },
+    {
+      "idx": 190,
+      "true_label": "reflect",
+      "pred": "replan",
+      "probs": {
+        "reflect": 0.3699687421321869,
+        "replan": 0.41922950744628906,
+        "escalate": 0.2108018398284912
+      },
+      "cls_ok": 0,
+      "solve_ok": 1,
+      "successful_actions": [
+        "reflect",
+        "replan"
+      ]
+    },
+    {
+      "idx": 191,
+      "true_label": "reflect",
+      "pred": "escalate",
+      "probs": {
+        "reflect": 0.2167271226644516,
+        "replan": 0.31905320286750793,
+        "escalate": 0.4642196595668793
+      },
+      "cls_ok": 0,
+      "solve_ok": 1,
+      "successful_actions": [
+        "reflect",
+        "replan",
+        "escalate",
+        "escalate"
+      ]
+    },
+    {
+      "idx": 192,
+      "true_label": "escalate",
+      "pred": "escalate",
+      "probs": {
+        "reflect": 0.12845535576343536,
+        "replan": 0.38200175762176514,
+        "escalate": 0.4895428717136383
+      },
+      "cls_ok": 1,
+      "solve_ok": 1,
+      "successful_actions": [
+        "escalate"
+      ]
+    },
+    {
+      "idx": 193,
+      "true_label": "reflect",
+      "pred": "escalate",
+      "probs": {
+        "reflect": 0.1501142382621765,
+        "replan": 0.4112531840801239,
+        "escalate": 0.438632607460022
+      },
+      "cls_ok": 0,
+      "solve_ok": 0,
+      "successful_actions": []
+    },
+    {
+      "idx": 194,
+      "true_label": "replan",
+      "pred": "escalate",
+      "probs": {
+        "reflect": 0.1353040337562561,
+        "replan": 0.39151519536972046,
+        "escalate": 0.47318074107170105
+      },
+      "cls_ok": 0,
+      "solve_ok": 1,
+      "successful_actions": [
+        "replan",
+        "escalate"
+      ]
+    },
+    {
+      "idx": 195,
+      "true_label": "escalate",
+      "pred": "replan",
+      "probs": {
+        "reflect": 0.18925383687019348,
+        "replan": 0.40537312626838684,
+        "escalate": 0.40537312626838684
+      },
+      "cls_ok": 0,
+      "solve_ok": 0,
+      "successful_actions": [
+        "escalate"
+      ]
+    },
+    {
+      "idx": 196,
+      "true_label": "escalate",
+      "pred": "escalate",
+      "probs": {
+        "reflect": 0.12062181532382965,
+        "replan": 0.3715413808822632,
+        "escalate": 0.5078368186950684
+      },
+      "cls_ok": 1,
+      "solve_ok": 1,
+      "successful_actions": [
+        "escalate"
+      ]
+    },
+    {
+      "idx": 197,
+      "true_label": "escalate",
+      "pred": "escalate",
+      "probs": {
+        "reflect": 0.14924892783164978,
+        "replan": 0.38561299443244934,
+        "escalate": 0.4651380777359009
+      },
+      "cls_ok": 1,
+      "solve_ok": 1,
+      "successful_actions": [
+        "escalate"
+      ]
+    },
+    {
+      "idx": 198,
+      "true_label": "reflect",
+      "pred": "escalate",
+      "probs": {
+        "reflect": 0.16352957487106323,
+        "replan": 0.37873533368110657,
+        "escalate": 0.457735151052475
+      },
+      "cls_ok": 0,
+      "solve_ok": 1,
+      "successful_actions": [
+        "reflect",
+        "replan",
+        "escalate",
+        "escalate"
+      ]
+    },
+    {
+      "idx": 199,
+      "true_label": "replan",
+      "pred": "replan",
+      "probs": {
+        "reflect": 0.3708050847053528,
+        "replan": 0.39164823293685913,
+        "escalate": 0.2375466674566269
+      },
+      "cls_ok": 1,
+      "solve_ok": 1,
+      "successful_actions": [
+        "replan",
+        "escalate"
+      ]
+    },
+    {
+      "idx": 200,
+      "true_label": "reflect",
+      "pred": "replan",
+      "probs": {
+        "reflect": 0.21431581676006317,
+        "replan": 0.40511438250541687,
+        "escalate": 0.3805697560310364
+      },
+      "cls_ok": 0,
+      "solve_ok": 0,
+      "successful_actions": [
+        "reflect"
+      ]
+    },
+    {
+      "idx": 201,
+      "true_label": "reflect",
+      "pred": "escalate",
+      "probs": {
+        "reflect": 0.13863740861415863,
+        "replan": 0.3512679934501648,
+        "escalate": 0.5100946426391602
+      },
+      "cls_ok": 0,
+      "solve_ok": 0,
+      "successful_actions": [
+        "reflect"
+      ]
+    },
+    {
+      "idx": 202,
+      "true_label": "escalate",
+      "pred": "escalate",
+      "probs": {
+        "reflect": 0.12845535576343536,
+        "replan": 0.38200175762176514,
+        "escalate": 0.4895428717136383
+      },
+      "cls_ok": 1,
+      "solve_ok": 1,
+      "successful_actions": [
+        "escalate"
+      ]
+    },
+    {
+      "idx": 203,
+      "true_label": "reflect",
+      "pred": "escalate",
+      "probs": {
+        "reflect": 0.16352957487106323,
+        "replan": 0.37873533368110657,
+        "escalate": 0.457735151052475
+      },
+      "cls_ok": 0,
+      "solve_ok": 1,
+      "successful_actions": [
+        "reflect",
+        "replan",
+        "escalate",
+        "escalate"
+      ]
+    },
+    {
+      "idx": 204,
+      "true_label": "escalate",
+      "pred": "reflect",
+      "probs": {
+        "reflect": 0.4683867394924164,
+        "replan": 0.20906676352024078,
+        "escalate": 0.3225465416908264
+      },
+      "cls_ok": 0,
+      "solve_ok": 0,
+      "successful_actions": [
+        "escalate"
+      ]
+    },
+    {
+      "idx": 205,
+      "true_label": "replan",
+      "pred": "escalate",
+      "probs": {
+        "reflect": 0.23516492545604706,
+        "replan": 0.31154289841651917,
+        "escalate": 0.45329225063323975
+      },
+      "cls_ok": 0,
+      "solve_ok": 1,
+      "successful_actions": [
+        "replan",
+        "escalate",
+        "escalate"
+      ]
+    },
+    {
+      "idx": 206,
+      "true_label": "reflect",
+      "pred": "reflect",
+      "probs": {
+        "reflect": 0.6242302656173706,
+        "replan": 0.17032207548618317,
+        "escalate": 0.20544764399528503
+      },
+      "cls_ok": 1,
+      "solve_ok": 1,
+      "successful_actions": [
+        "reflect"
+      ]
+    },
+    {
+      "idx": 207,
+      "true_label": "escalate",
+      "pred": "escalate",
+      "probs": {
+        "reflect": 0.14924892783164978,
+        "replan": 0.38561299443244934,
+        "escalate": 0.4651380777359009
+      },
+      "cls_ok": 1,
+      "solve_ok": 1,
+      "successful_actions": [
+        "escalate"
+      ]
+    },
+    {
+      "idx": 208,
+      "true_label": "reflect",
+      "pred": "escalate",
+      "probs": {
+        "reflect": 0.13680632412433624,
+        "replan": 0.4181138277053833,
+        "escalate": 0.44507986307144165
+      },
+      "cls_ok": 0,
+      "solve_ok": 0,
+      "successful_actions": [
+        "reflect",
+        "replan"
+      ]
+    },
+    {
+      "idx": 209,
+      "true_label": "escalate",
+      "pred": "escalate",
+      "probs": {
+        "reflect": 0.14924892783164978,
+        "replan": 0.38561299443244934,
+        "escalate": 0.4651380777359009
+      },
+      "cls_ok": 1,
+      "solve_ok": 1,
+      "successful_actions": [
+        "escalate"
+      ]
+    },
+    {
+      "idx": 210,
+      "true_label": "replan",
+      "pred": "escalate",
+      "probs": {
+        "reflect": 0.16288402676582336,
+        "replan": 0.31642964482307434,
+        "escalate": 0.5206863284111023
+      },
+      "cls_ok": 0,
+      "solve_ok": 1,
+      "successful_actions": [
+        "replan",
+        "escalate",
+        "escalate"
+      ]
+    },
+    {
+      "idx": 211,
+      "true_label": "replan",
+      "pred": "escalate",
+      "probs": {
+        "reflect": 0.16528534889221191,
+        "replan": 0.404319167137146,
+        "escalate": 0.4303955137729645
+      },
+      "cls_ok": 0,
+      "solve_ok": 0,
+      "successful_actions": [
+        "replan"
+      ]
+    },
+    {
+      "idx": 212,
+      "true_label": "escalate",
+      "pred": "reflect",
+      "probs": {
+        "reflect": 0.694451630115509,
+        "replan": 0.1623101830482483,
+        "escalate": 0.14323823153972626
+      },
+      "cls_ok": 0,
+      "solve_ok": 0,
+      "successful_actions": [
+        "escalate"
+      ]
+    },
+    {
+      "idx": 213,
+      "true_label": "escalate",
+      "pred": "replan",
+      "probs": {
+        "reflect": 0.15794268250465393,
+        "replan": 0.42102867364883423,
+        "escalate": 0.42102867364883423
+      },
+      "cls_ok": 0,
+      "solve_ok": 0,
+      "successful_actions": [
+        "escalate"
+      ]
+    },
+    {
+      "idx": 214,
+      "true_label": "escalate",
+      "pred": "escalate",
+      "probs": {
+        "reflect": 0.09823214262723923,
+        "replan": 0.3810010850429535,
+        "escalate": 0.5207667350769043
+      },
+      "cls_ok": 1,
+      "solve_ok": 1,
+      "successful_actions": [
+        "escalate"
+      ]
+    },
+    {
+      "idx": 215,
+      "true_label": "replan",
+      "pred": "replan",
+      "probs": {
+        "reflect": 0.18835662305355072,
+        "replan": 0.4311525821685791,
+        "escalate": 0.38049080967903137
+      },
+      "cls_ok": 1,
+      "solve_ok": 1,
+      "successful_actions": [
+        "replan",
+        "escalate",
+        "escalate"
+      ]
+    },
+    {
+      "idx": 216,
+      "true_label": "escalate",
+      "pred": "escalate",
+      "probs": {
+        "reflect": 0.13303318619728088,
+        "replan": 0.365884393453598,
+        "escalate": 0.5010823607444763
+      },
+      "cls_ok": 1,
+      "solve_ok": 1,
+      "successful_actions": [
+        "replan",
+        "escalate",
+        "escalate"
+      ]
+    },
+    {
+      "idx": 217,
+      "true_label": "escalate",
+      "pred": "escalate",
+      "probs": {
+        "reflect": 0.14924892783164978,
+        "replan": 0.38561299443244934,
+        "escalate": 0.4651380777359009
+      },
+      "cls_ok": 1,
+      "solve_ok": 1,
+      "successful_actions": [
+        "escalate"
+      ]
+    },
+    {
+      "idx": 218,
+      "true_label": "replan",
+      "pred": "replan",
+      "probs": {
+        "reflect": 0.1970914602279663,
+        "replan": 0.413995623588562,
+        "escalate": 0.3889128863811493
+      },
+      "cls_ok": 1,
+      "solve_ok": 1,
+      "successful_actions": [
+        "replan",
+        "escalate"
+      ]
+    },
+    {
+      "idx": 219,
+      "true_label": "escalate",
+      "pred": "escalate",
+      "probs": {
+        "reflect": 0.12062181532382965,
+        "replan": 0.3715413808822632,
+        "escalate": 0.5078368186950684
+      },
+      "cls_ok": 1,
+      "solve_ok": 1,
+      "successful_actions": [
+        "escalate"
+      ]
+    },
+    {
+      "idx": 220,
+      "true_label": "escalate",
+      "pred": "escalate",
+      "probs": {
+        "reflect": 0.1353040337562561,
+        "replan": 0.39151519536972046,
+        "escalate": 0.47318074107170105
+      },
+      "cls_ok": 1,
+      "solve_ok": 1,
+      "successful_actions": [
+        "escalate"
+      ]
+    },
+    {
+      "idx": 221,
+      "true_label": "replan",
+      "pred": "replan",
+      "probs": {
+        "reflect": 0.3875032067298889,
+        "replan": 0.43229106068611145,
+        "escalate": 0.18020571768283844
+      },
+      "cls_ok": 1,
+      "solve_ok": 1,
+      "successful_actions": [
+        "reflect",
+        "replan"
+      ]
+    },
+    {
+      "idx": 222,
+      "true_label": "replan",
+      "pred": "reflect",
+      "probs": {
+        "reflect": 0.7637556791305542,
+        "replan": 0.15429751574993134,
+        "escalate": 0.08194679766893387
+      },
+      "cls_ok": 0,
+      "solve_ok": 0,
+      "successful_actions": [
+        "replan"
+      ]
+    },
+    {
+      "idx": 223,
+      "true_label": "escalate",
+      "pred": "escalate",
+      "probs": {
+        "reflect": 0.1156720295548439,
+        "replan": 0.38675448298454285,
+        "escalate": 0.49757346510887146
+      },
+      "cls_ok": 1,
+      "solve_ok": 1,
+      "successful_actions": [
+        "escalate"
+      ]
+    },
+    {
+      "idx": 224,
+      "true_label": "escalate",
+      "pred": "escalate",
+      "probs": {
+        "reflect": 0.16352957487106323,
+        "replan": 0.37873533368110657,
+        "escalate": 0.457735151052475
+      },
+      "cls_ok": 1,
+      "solve_ok": 1,
+      "successful_actions": [
+        "escalate"
+      ]
+    },
+    {
+      "idx": 225,
+      "true_label": "escalate",
+      "pred": "escalate",
+      "probs": {
+        "reflect": 0.14924892783164978,
+        "replan": 0.38561299443244934,
+        "escalate": 0.4651380777359009
+      },
+      "cls_ok": 1,
+      "solve_ok": 1,
+      "successful_actions": [
+        "escalate"
+      ]
+    },
+    {
+      "idx": 226,
+      "true_label": "reflect",
+      "pred": "escalate",
+      "probs": {
+        "reflect": 0.267895370721817,
+        "replan": 0.27639928460121155,
+        "escalate": 0.4557053744792938
+      },
+      "cls_ok": 0,
+      "solve_ok": 1,
+      "successful_actions": [
+        "reflect",
+        "escalate",
+        "escalate"
+      ]
+    },
+    {
+      "idx": 227,
+      "true_label": "escalate",
+      "pred": "escalate",
+      "probs": {
+        "reflect": 0.12565501034259796,
+        "replan": 0.3565622568130493,
+        "escalate": 0.5177827477455139
+      },
+      "cls_ok": 1,
+      "solve_ok": 1,
+      "successful_actions": [
+        "escalate"
+      ]
+    },
+    {
+      "idx": 228,
+      "true_label": "replan",
+      "pred": "escalate",
+      "probs": {
+        "reflect": 0.12845535576343536,
+        "replan": 0.38200175762176514,
+        "escalate": 0.4895428717136383
+      },
+      "cls_ok": 0,
+      "solve_ok": 1,
+      "successful_actions": [
+        "escalate"
+      ]
+    },
+    {
+      "idx": 229,
+      "true_label": "escalate",
+      "pred": "escalate",
+      "probs": {
+        "reflect": 0.12845535576343536,
+        "replan": 0.38200175762176514,
+        "escalate": 0.4895428717136383
+      },
+      "cls_ok": 1,
+      "solve_ok": 1,
+      "successful_actions": [
+        "escalate"
+      ]
+    },
+    {
+      "idx": 230,
+      "true_label": "reflect",
+      "pred": "reflect",
+      "probs": {
+        "reflect": 0.37152960896492004,
+        "replan": 0.28486162424087524,
+        "escalate": 0.34360870718955994
+      },
+      "cls_ok": 1,
+      "solve_ok": 1,
+      "successful_actions": [
+        "reflect",
+        "escalate",
+        "escalate"
+      ]
+    },
+    {
+      "idx": 231,
+      "true_label": "escalate",
+      "pred": "escalate",
+      "probs": {
+        "reflect": 0.15716512501239777,
+        "replan": 0.3951130509376526,
+        "escalate": 0.4477217495441437
+      },
+      "cls_ok": 1,
+      "solve_ok": 0,
+      "successful_actions": []
+    },
+    {
+      "idx": 232,
+      "true_label": "reflect",
+      "pred": "replan",
+      "probs": {
+        "reflect": 0.2944108247756958,
+        "replan": 0.449800580739975,
+        "escalate": 0.25578856468200684
+      },
+      "cls_ok": 0,
+      "solve_ok": 0,
+      "successful_actions": [
+        "reflect",
+        "escalate",
+        "escalate"
+      ]
+    },
+    {
+      "idx": 233,
+      "true_label": "replan",
+      "pred": "escalate",
+      "probs": {
+        "reflect": 0.10911273956298828,
+        "replan": 0.3764039874076843,
+        "escalate": 0.5144832134246826
+      },
+      "cls_ok": 0,
+      "solve_ok": 0,
+      "successful_actions": [
+        "replan"
+      ]
+    },
+    {
+      "idx": 234,
+      "true_label": "escalate",
+      "pred": "escalate",
+      "probs": {
+        "reflect": 0.12062181532382965,
+        "replan": 0.3715413808822632,
+        "escalate": 0.5078368186950684
+      },
+      "cls_ok": 1,
+      "solve_ok": 1,
+      "successful_actions": [
+        "escalate"
+      ]
+    },
+    {
+      "idx": 235,
+      "true_label": "escalate",
+      "pred": "escalate",
+      "probs": {
+        "reflect": 0.1061251237988472,
+        "replan": 0.3507000505924225,
+        "escalate": 0.5431748628616333
+      },
+      "cls_ok": 1,
+      "solve_ok": 1,
+      "successful_actions": [
+        "escalate"
+      ]
+    },
+    {
+      "idx": 236,
+      "true_label": "escalate",
+      "pred": "escalate",
+      "probs": {
+        "reflect": 0.1353040337562561,
+        "replan": 0.39151519536972046,
+        "escalate": 0.47318074107170105
+      },
+      "cls_ok": 1,
+      "solve_ok": 1,
+      "successful_actions": [
+        "escalate"
+      ]
+    },
+    {
+      "idx": 237,
+      "true_label": "reflect",
+      "pred": "reflect",
+      "probs": {
+        "reflect": 0.522857666015625,
+        "replan": 0.17275725305080414,
+        "escalate": 0.30438509583473206
+      },
+      "cls_ok": 1,
+      "solve_ok": 1,
+      "successful_actions": [
+        "reflect",
+        "replan",
+        "escalate",
+        "escalate"
+      ]
+    },
+    {
+      "idx": 238,
+      "true_label": "escalate",
+      "pred": "escalate",
+      "probs": {
+        "reflect": 0.24183127284049988,
+        "replan": 0.2974575459957123,
+        "escalate": 0.4607112407684326
+      },
+      "cls_ok": 1,
+      "solve_ok": 1,
+      "successful_actions": [
+        "escalate"
+      ]
+    },
+    {
+      "idx": 239,
+      "true_label": "escalate",
+      "pred": "escalate",
+      "probs": {
+        "reflect": 0.14093974232673645,
+        "replan": 0.3757038414478302,
+        "escalate": 0.48335641622543335
+      },
+      "cls_ok": 1,
+      "solve_ok": 1,
+      "successful_actions": [
+        "escalate"
+      ]
+    },
+    {
+      "idx": 240,
+      "true_label": "replan",
+      "pred": "replan",
+      "probs": {
+        "reflect": 0.16528534889221191,
+        "replan": 0.4303955137729645,
+        "escalate": 0.404319167137146
+      },
+      "cls_ok": 1,
+      "solve_ok": 1,
+      "successful_actions": [
+        "replan",
+        "escalate",
+        "escalate"
+      ]
+    },
+    {
+      "idx": 241,
+      "true_label": "replan",
+      "pred": "escalate",
+      "probs": {
+        "reflect": 0.1353040337562561,
+        "replan": 0.39151519536972046,
+        "escalate": 0.47318074107170105
+      },
+      "cls_ok": 0,
+      "solve_ok": 1,
+      "successful_actions": [
+        "replan",
+        "escalate",
+        "escalate"
+      ]
+    },
+    {
+      "idx": 242,
+      "true_label": "escalate",
+      "pred": "escalate",
+      "probs": {
+        "reflect": 0.15536506474018097,
+        "replan": 0.36980104446411133,
+        "escalate": 0.4748339354991913
+      },
+      "cls_ok": 1,
+      "solve_ok": 1,
+      "successful_actions": [
+        "escalate"
+      ]
+    },
+    {
+      "idx": 243,
+      "true_label": "replan",
+      "pred": "replan",
+      "probs": {
+        "reflect": 0.14417503774166107,
+        "replan": 0.42791247367858887,
+        "escalate": 0.42791247367858887
+      },
+      "cls_ok": 1,
+      "solve_ok": 1,
+      "successful_actions": [
+        "replan"
+      ]
+    },
+    {
+      "idx": 244,
+      "true_label": "escalate",
+      "pred": "escalate",
+      "probs": {
+        "reflect": 0.10911273956298828,
+        "replan": 0.3764039874076843,
+        "escalate": 0.5144832134246826
+      },
+      "cls_ok": 1,
+      "solve_ok": 1,
+      "successful_actions": [
+        "escalate"
+      ]
+    },
+    {
+      "idx": 245,
+      "true_label": "escalate",
+      "pred": "escalate",
+      "probs": {
+        "reflect": 0.14924892783164978,
+        "replan": 0.38561299443244934,
+        "escalate": 0.4651380777359009
+      },
+      "cls_ok": 1,
+      "solve_ok": 1,
+      "successful_actions": [
+        "escalate"
+      ]
+    },
+    {
+      "idx": 246,
+      "true_label": "reflect",
+      "pred": "replan",
+      "probs": {
+        "reflect": 0.2059689462184906,
+        "replan": 0.3970155417919159,
+        "escalate": 0.3970155417919159
+      },
+      "cls_ok": 0,
+      "solve_ok": 1,
+      "successful_actions": [
+        "reflect",
+        "replan",
+        "escalate",
+        "escalate"
+      ]
+    },
+    {
+      "idx": 247,
+      "true_label": "escalate",
+      "pred": "escalate",
+      "probs": {
+        "reflect": 0.15716512501239777,
+        "replan": 0.3951130509376526,
+        "escalate": 0.4477217495441437
+      },
+      "cls_ok": 1,
+      "solve_ok": 1,
+      "successful_actions": [
+        "escalate"
+      ]
+    },
+    {
+      "idx": 248,
+      "true_label": "replan",
+      "pred": "escalate",
+      "probs": {
+        "reflect": 0.12845535576343536,
+        "replan": 0.38200175762176514,
+        "escalate": 0.4895428717136383
+      },
+      "cls_ok": 0,
+      "solve_ok": 0,
+      "successful_actions": [
+        "replan"
+      ]
+    },
+    {
+      "idx": 249,
+      "true_label": "reflect",
+      "pred": "escalate",
+      "probs": {
+        "reflect": 0.14334118366241455,
+        "replan": 0.40201032161712646,
+        "escalate": 0.45464852452278137
+      },
+      "cls_ok": 0,
+      "solve_ok": 1,
+      "successful_actions": [
+        "reflect",
+        "replan",
+        "escalate",
+        "escalate"
+      ]
+    },
+    {
+      "idx": 250,
+      "true_label": "escalate",
+      "pred": "escalate",
+      "probs": {
+        "reflect": 0.1563268005847931,
+        "replan": 0.3824048936367035,
+        "escalate": 0.4612683653831482
+      },
+      "cls_ok": 1,
+      "solve_ok": 1,
+      "successful_actions": [
+        "escalate"
+      ]
+    },
+    {
+      "idx": 251,
+      "true_label": "replan",
+      "pred": "escalate",
+      "probs": {
+        "reflect": 0.15087111294269562,
+        "replan": 0.4117153286933899,
+        "escalate": 0.4374135136604309
+      },
+      "cls_ok": 0,
+      "solve_ok": 1,
+      "successful_actions": [
+        "replan",
+        "escalate"
+      ]
+    },
+    {
+      "idx": 252,
+      "true_label": "replan",
+      "pred": "replan",
+      "probs": {
+        "reflect": 0.2771281599998474,
+        "replan": 0.4063815772533417,
+        "escalate": 0.3164902925491333
+      },
+      "cls_ok": 1,
+      "solve_ok": 1,
+      "successful_actions": [
+        "replan",
+        "escalate",
+        "escalate"
+      ]
+    },
+    {
+      "idx": 253,
+      "true_label": "escalate",
+      "pred": "escalate",
+      "probs": {
+        "reflect": 0.19935813546180725,
+        "replan": 0.32612815499305725,
+        "escalate": 0.4745136499404907
+      },
+      "cls_ok": 1,
+      "solve_ok": 1,
+      "successful_actions": [
+        "escalate"
+      ]
+    },
+    {
+      "idx": 254,
+      "true_label": "reflect",
+      "pred": "escalate",
+      "probs": {
+        "reflect": 0.13316339254379272,
+        "replan": 0.36624249815940857,
+        "escalate": 0.5005941390991211
+      },
+      "cls_ok": 0,
+      "solve_ok": 0,
+      "successful_actions": [
+        "reflect"
+      ]
+    },
+    {
+      "idx": 255,
+      "true_label": "escalate",
+      "pred": "escalate",
+      "probs": {
+        "reflect": 0.16528534889221191,
+        "replan": 0.404319167137146,
+        "escalate": 0.4303955137729645
+      },
+      "cls_ok": 1,
+      "solve_ok": 1,
+      "successful_actions": [
+        "escalate"
+      ]
+    },
+    {
+      "idx": 256,
+      "true_label": "escalate",
+      "pred": "escalate",
+      "probs": {
+        "reflect": 0.13316339254379272,
+        "replan": 0.36624249815940857,
+        "escalate": 0.5005941390991211
+      },
+      "cls_ok": 1,
+      "solve_ok": 1,
+      "successful_actions": [
+        "escalate"
+      ]
+    },
+    {
+      "idx": 257,
+      "true_label": "replan",
+      "pred": "escalate",
+      "probs": {
+        "reflect": 0.12845535576343536,
+        "replan": 0.38200175762176514,
+        "escalate": 0.4895428717136383
+      },
+      "cls_ok": 0,
+      "solve_ok": 1,
+      "successful_actions": [
+        "replan",
+        "escalate",
+        "escalate"
+      ]
+    },
+    {
+      "idx": 258,
+      "true_label": "reflect",
+      "pred": "escalate",
+      "probs": {
+        "reflect": 0.16528534889221191,
+        "replan": 0.404319167137146,
+        "escalate": 0.4303955137729645
+      },
+      "cls_ok": 0,
+      "solve_ok": 0,
+      "successful_actions": [
+        "reflect",
+        "replan"
+      ]
+    },
+    {
+      "idx": 259,
+      "true_label": "reflect",
+      "pred": "reflect",
+      "probs": {
+        "reflect": 0.5813596844673157,
+        "replan": 0.18329057097434998,
+        "escalate": 0.23534977436065674
+      },
+      "cls_ok": 1,
+      "solve_ok": 1,
+      "successful_actions": [
+        "reflect",
+        "replan"
+      ]
+    },
+    {
+      "idx": 260,
+      "true_label": "escalate",
+      "pred": "escalate",
+      "probs": {
+        "reflect": 0.09221582859754562,
+        "replan": 0.32949769496917725,
+        "escalate": 0.5782864093780518
+      },
+      "cls_ok": 1,
+      "solve_ok": 1,
+      "successful_actions": [
+        "escalate"
+      ]
+    },
+    {
+      "idx": 261,
+      "true_label": "replan",
+      "pred": "escalate",
+      "probs": {
+        "reflect": 0.14093974232673645,
+        "replan": 0.3757038414478302,
+        "escalate": 0.48335641622543335
+      },
+      "cls_ok": 0,
+      "solve_ok": 0,
+      "successful_actions": [
+        "replan"
+      ]
+    },
+    {
+      "idx": 262,
+      "true_label": "replan",
+      "pred": "escalate",
+      "probs": {
+        "reflect": 0.11102163046598434,
+        "replan": 0.40293994545936584,
+        "escalate": 0.48603835701942444
+      },
+      "cls_ok": 0,
+      "solve_ok": 1,
+      "successful_actions": [
+        "replan",
+        "escalate"
+      ]
+    },
+    {
+      "idx": 263,
+      "true_label": "replan",
+      "pred": "escalate",
+      "probs": {
+        "reflect": 0.14334118366241455,
+        "replan": 0.40201032161712646,
+        "escalate": 0.45464852452278137
+      },
+      "cls_ok": 0,
+      "solve_ok": 1,
+      "successful_actions": [
+        "replan",
+        "escalate",
+        "escalate"
+      ]
+    },
+    {
+      "idx": 264,
+      "true_label": "reflect",
+      "pred": "replan",
+      "probs": {
+        "reflect": 0.3875032067298889,
+        "replan": 0.43229106068611145,
+        "escalate": 0.18020571768283844
+      },
+      "cls_ok": 0,
+      "solve_ok": 1,
+      "successful_actions": [
+        "reflect",
+        "replan",
+        "escalate",
+        "escalate"
+      ]
+    },
+    {
+      "idx": 265,
+      "true_label": "reflect",
+      "pred": "replan",
+      "probs": {
+        "reflect": 0.2278500646352768,
+        "replan": 0.3860749900341034,
+        "escalate": 0.3860749900341034
+      },
+      "cls_ok": 0,
+      "solve_ok": 0,
+      "successful_actions": [
+        "reflect"
+      ]
+    },
+    {
+      "idx": 266,
+      "true_label": "escalate",
+      "pred": "escalate",
+      "probs": {
+        "reflect": 0.1353040337562561,
+        "replan": 0.39151519536972046,
+        "escalate": 0.47318074107170105
+      },
+      "cls_ok": 1,
+      "solve_ok": 1,
+      "successful_actions": [
+        "escalate"
+      ]
+    },
+    {
+      "idx": 267,
+      "true_label": "escalate",
+      "pred": "escalate",
+      "probs": {
+        "reflect": 0.15716512501239777,
+        "replan": 0.3951130509376526,
+        "escalate": 0.4477217495441437
+      },
+      "cls_ok": 1,
+      "solve_ok": 1,
+      "successful_actions": [
+        "escalate"
+      ]
+    },
+    {
+      "idx": 268,
+      "true_label": "escalate",
+      "pred": "escalate",
+      "probs": {
+        "reflect": 0.14924892783164978,
+        "replan": 0.38561299443244934,
+        "escalate": 0.4651380777359009
+      },
+      "cls_ok": 1,
+      "solve_ok": 1,
+      "successful_actions": [
+        "escalate"
+      ]
+    },
+    {
+      "idx": 269,
+      "true_label": "reflect",
+      "pred": "reflect",
+      "probs": {
+        "reflect": 0.5360013842582703,
+        "replan": 0.22475166618824005,
+        "escalate": 0.2392469048500061
+      },
+      "cls_ok": 1,
+      "solve_ok": 1,
+      "successful_actions": [
+        "reflect",
+        "replan"
+      ]
+    },
+    {
+      "idx": 270,
+      "true_label": "escalate",
+      "pred": "escalate",
+      "probs": {
+        "reflect": 0.24845123291015625,
+        "replan": 0.28374022245407104,
+        "escalate": 0.4678085446357727
+      },
+      "cls_ok": 1,
+      "solve_ok": 1,
+      "successful_actions": [
+        "escalate"
+      ]
+    },
+    {
+      "idx": 271,
+      "true_label": "reflect",
+      "pred": "escalate",
+      "probs": {
+        "reflect": 0.14435666799545288,
+        "replan": 0.3878304660320282,
+        "escalate": 0.4678128659725189
+      },
+      "cls_ok": 0,
+      "solve_ok": 0,
+      "successful_actions": [
+        "reflect",
+        "replan"
+      ]
+    },
+    {
+      "idx": 272,
+      "true_label": "reflect",
+      "pred": "reflect",
+      "probs": {
+        "reflect": 0.7418971061706543,
+        "replan": 0.18216514587402344,
+        "escalate": 0.07593773305416107
+      },
+      "cls_ok": 1,
+      "solve_ok": 1,
+      "successful_actions": [
+        "reflect",
+        "replan"
+      ]
+    },
+    {
+      "idx": 273,
+      "true_label": "reflect",
+      "pred": "reflect",
+      "probs": {
+        "reflect": 0.41435933113098145,
+        "replan": 0.26544854044914246,
+        "escalate": 0.3201920688152313
+      },
+      "cls_ok": 1,
+      "solve_ok": 1,
+      "successful_actions": [
+        "reflect"
+      ]
+    },
+    {
+      "idx": 274,
+      "true_label": "replan",
+      "pred": "escalate",
+      "probs": {
+        "reflect": 0.10468198359012604,
+        "replan": 0.3919912278652191,
+        "escalate": 0.5033267140388489
+      },
+      "cls_ok": 0,
+      "solve_ok": 1,
+      "successful_actions": [
+        "replan",
+        "escalate",
+        "escalate"
+      ]
+    },
+    {
+      "idx": 275,
+      "true_label": "escalate",
+      "pred": "escalate",
+      "probs": {
+        "reflect": 0.16352957487106323,
+        "replan": 0.37873533368110657,
+        "escalate": 0.457735151052475
+      },
+      "cls_ok": 1,
+      "solve_ok": 1,
+      "successful_actions": [
+        "escalate"
+      ]
+    },
+    {
+      "idx": 276,
+      "true_label": "escalate",
+      "pred": "escalate",
+      "probs": {
+        "reflect": 0.1156720295548439,
+        "replan": 0.38675448298454285,
+        "escalate": 0.49757346510887146
+      },
+      "cls_ok": 1,
+      "solve_ok": 1,
+      "successful_actions": [
+        "escalate"
+      ]
+    },
+    {
+      "idx": 277,
+      "true_label": "escalate",
+      "pred": "escalate",
+      "probs": {
+        "reflect": 0.14334118366241455,
+        "replan": 0.40201032161712646,
+        "escalate": 0.45464852452278137
+      },
+      "cls_ok": 1,
+      "solve_ok": 1,
+      "successful_actions": [
+        "escalate"
+      ]
+    },
+    {
+      "idx": 278,
+      "true_label": "replan",
+      "pred": "replan",
+      "probs": {
+        "reflect": 0.3274258077144623,
+        "replan": 0.44753798842430115,
+        "escalate": 0.22503623366355896
+      },
+      "cls_ok": 1,
+      "solve_ok": 1,
+      "successful_actions": [
+        "replan",
+        "escalate",
+        "escalate"
+      ]
+    },
+    {
+      "idx": 279,
+      "true_label": "replan",
+      "pred": "replan",
+      "probs": {
+        "reflect": 0.17303894460201263,
+        "replan": 0.4134805500507355,
+        "escalate": 0.4134805500507355
+      },
+      "cls_ok": 1,
+      "solve_ok": 1,
+      "successful_actions": [
+        "replan",
+        "escalate",
+        "escalate"
+      ]
+    },
+    {
+      "idx": 280,
+      "true_label": "escalate",
+      "pred": "escalate",
+      "probs": {
+        "reflect": 0.1353040337562561,
+        "replan": 0.39151519536972046,
+        "escalate": 0.47318074107170105
+      },
+      "cls_ok": 1,
+      "solve_ok": 1,
+      "successful_actions": [
+        "escalate"
+      ]
+    },
+    {
+      "idx": 281,
+      "true_label": "reflect",
+      "pred": "escalate",
+      "probs": {
+        "reflect": 0.1156720295548439,
+        "replan": 0.38675448298454285,
+        "escalate": 0.49757346510887146
+      },
+      "cls_ok": 0,
+      "solve_ok": 1,
+      "successful_actions": [
+        "reflect",
+        "replan",
+        "escalate",
+        "escalate"
+      ]
+    },
+    {
+      "idx": 282,
+      "true_label": "escalate",
+      "pred": "escalate",
+      "probs": {
+        "reflect": 0.18093261122703552,
+        "replan": 0.3967399001121521,
+        "escalate": 0.4223274290561676
+      },
+      "cls_ok": 1,
+      "solve_ok": 1,
+      "successful_actions": [
+        "escalate"
+      ]
+    },
+    {
+      "idx": 283,
+      "true_label": "escalate",
+      "pred": "replan",
+      "probs": {
+        "reflect": 0.16528534889221191,
+        "replan": 0.4303955137729645,
+        "escalate": 0.404319167137146
+      },
+      "cls_ok": 0,
+      "solve_ok": 0,
+      "successful_actions": [
+        "escalate"
+      ]
+    },
+    {
+      "idx": 284,
+      "true_label": "replan",
+      "pred": "replan",
+      "probs": {
+        "reflect": 0.2512281537055969,
+        "replan": 0.38608166575431824,
+        "escalate": 0.36269015073776245
+      },
+      "cls_ok": 1,
+      "solve_ok": 1,
+      "successful_actions": [
+        "replan"
+      ]
+    },
+    {
+      "idx": 285,
+      "true_label": "replan",
+      "pred": "replan",
+      "probs": {
+        "reflect": 0.26099497079849243,
+        "replan": 0.3695024847984314,
+        "escalate": 0.3695024847984314
+      },
+      "cls_ok": 1,
+      "solve_ok": 1,
+      "successful_actions": [
+        "replan",
+        "escalate",
+        "escalate"
+      ]
+    },
+    {
+      "idx": 286,
+      "true_label": "reflect",
+      "pred": "escalate",
+      "probs": {
+        "reflect": 0.14334118366241455,
+        "replan": 0.40201032161712646,
+        "escalate": 0.45464852452278137
+      },
+      "cls_ok": 0,
+      "solve_ok": 0,
+      "successful_actions": [
+        "reflect"
+      ]
+    },
+    {
+      "idx": 287,
+      "true_label": "reflect",
+      "pred": "escalate",
+      "probs": {
+        "reflect": 0.17205436527729034,
+        "replan": 0.38773050904273987,
+        "escalate": 0.44021517038345337
+      },
+      "cls_ok": 0,
+      "solve_ok": 1,
+      "successful_actions": [
+        "reflect",
+        "replan",
+        "escalate",
+        "escalate"
+      ]
+    },
+    {
+      "idx": 288,
+      "true_label": "escalate",
+      "pred": "escalate",
+      "probs": {
+        "reflect": 0.08457688242197037,
+        "replan": 0.40035372972488403,
+        "escalate": 0.5150693655014038
+      },
+      "cls_ok": 1,
+      "solve_ok": 1,
+      "successful_actions": [
+        "escalate"
+      ]
+    },
+    {
+      "idx": 289,
+      "true_label": "reflect",
+      "pred": "escalate",
+      "probs": {
+        "reflect": 0.3635120391845703,
+        "replan": 0.22134414315223694,
+        "escalate": 0.41514378786087036
+      },
+      "cls_ok": 0,
+      "solve_ok": 0,
+      "successful_actions": [
+        "reflect"
+      ]
+    },
+    {
+      "idx": 290,
+      "true_label": "escalate",
+      "pred": "escalate",
+      "probs": {
+        "reflect": 0.10911273956298828,
+        "replan": 0.3764039874076843,
+        "escalate": 0.5144832134246826
+      },
+      "cls_ok": 1,
+      "solve_ok": 1,
+      "successful_actions": [
+        "escalate"
+      ]
+    },
+    {
+      "idx": 291,
+      "true_label": "replan",
+      "pred": "escalate",
+      "probs": {
+        "reflect": 0.1225893646478653,
+        "replan": 0.39727216958999634,
+        "escalate": 0.48013854026794434
+      },
+      "cls_ok": 0,
+      "solve_ok": 1,
+      "successful_actions": [
+        "replan",
+        "escalate",
+        "escalate"
+      ]
+    },
+    {
+      "idx": 292,
+      "true_label": "reflect",
+      "pred": "escalate",
+      "probs": {
+        "reflect": 0.18627826869487762,
+        "replan": 0.3562665283679962,
+        "escalate": 0.45745527744293213
+      },
+      "cls_ok": 0,
+      "solve_ok": 1,
+      "successful_actions": [
+        "reflect",
+        "replan",
+        "escalate",
+        "escalate"
+      ]
+    },
+    {
+      "idx": 293,
+      "true_label": "replan",
+      "pred": "escalate",
+      "probs": {
+        "reflect": 0.13303318619728088,
+        "replan": 0.365884393453598,
+        "escalate": 0.5010823607444763
+      },
+      "cls_ok": 0,
+      "solve_ok": 1,
+      "successful_actions": [
+        "replan",
+        "escalate",
+        "escalate"
+      ]
+    },
+    {
+      "idx": 294,
+      "true_label": "replan",
+      "pred": "escalate",
+      "probs": {
+        "reflect": 0.15716512501239777,
+        "replan": 0.3951130509376526,
+        "escalate": 0.4477217495441437
+      },
+      "cls_ok": 0,
+      "solve_ok": 0,
+      "successful_actions": [
+        "replan"
+      ]
+    },
+    {
+      "idx": 295,
+      "true_label": "escalate",
+      "pred": "replan",
+      "probs": {
+        "reflect": 0.17220227420330048,
+        "replan": 0.43973392248153687,
+        "escalate": 0.38806381821632385
+      },
+      "cls_ok": 0,
+      "solve_ok": 0,
+      "successful_actions": [
+        "escalate"
+      ]
+    },
+    {
+      "idx": 296,
+      "true_label": "replan",
+      "pred": "escalate",
+      "probs": {
+        "reflect": 0.14924892783164978,
+        "replan": 0.38561299443244934,
+        "escalate": 0.4651380777359009
+      },
+      "cls_ok": 0,
+      "solve_ok": 1,
+      "successful_actions": [
+        "reflect",
+        "replan",
+        "escalate",
+        "escalate"
+      ]
+    },
+    {
+      "idx": 297,
+      "true_label": "replan",
+      "pred": "escalate",
+      "probs": {
+        "reflect": 0.14924892783164978,
+        "replan": 0.38561299443244934,
+        "escalate": 0.4651380777359009
+      },
+      "cls_ok": 0,
+      "solve_ok": 1,
+      "successful_actions": [
+        "replan",
+        "escalate"
+      ]
+    },
+    {
+      "idx": 298,
+      "true_label": "escalate",
+      "pred": "escalate",
+      "probs": {
+        "reflect": 0.10911273956298828,
+        "replan": 0.3764039874076843,
+        "escalate": 0.5144832134246826
+      },
+      "cls_ok": 1,
+      "solve_ok": 1,
+      "successful_actions": [
+        "escalate"
+      ]
+    },
+    {
+      "idx": 299,
+      "true_label": "escalate",
+      "pred": "escalate",
+      "probs": {
+        "reflect": 0.17205436527729034,
+        "replan": 0.38773050904273987,
+        "escalate": 0.44021517038345337
+      },
+      "cls_ok": 1,
+      "solve_ok": 1,
+      "successful_actions": [
+        "escalate"
+      ]
+    },
+    {
+      "idx": 300,
+      "true_label": "escalate",
+      "pred": "escalate",
+      "probs": {
+        "reflect": 0.11310224235057831,
+        "replan": 0.3608449697494507,
+        "escalate": 0.5260527729988098
+      },
+      "cls_ok": 1,
+      "solve_ok": 1,
+      "successful_actions": [
+        "escalate"
+      ]
+    },
+    {
+      "idx": 301,
+      "true_label": "reflect",
+      "pred": "escalate",
+      "probs": {
+        "reflect": 0.12062181532382965,
+        "replan": 0.3715413808822632,
+        "escalate": 0.5078368186950684
+      },
+      "cls_ok": 0,
+      "solve_ok": 1,
+      "successful_actions": [
+        "reflect",
+        "replan",
+        "escalate",
+        "escalate"
+      ]
+    },
+    {
+      "idx": 302,
+      "true_label": "replan",
+      "pred": "escalate",
+      "probs": {
+        "reflect": 0.13680632412433624,
+        "replan": 0.4181138277053833,
+        "escalate": 0.44507986307144165
+      },
+      "cls_ok": 0,
+      "solve_ok": 1,
+      "successful_actions": [
+        "replan",
+        "escalate",
+        "escalate"
+      ]
+    },
+    {
+      "idx": 303,
+      "true_label": "escalate",
+      "pred": "escalate",
+      "probs": {
+        "reflect": 0.0799199715256691,
+        "replan": 0.34715649485588074,
+        "escalate": 0.5729235410690308
+      },
+      "cls_ok": 1,
+      "solve_ok": 1,
+      "successful_actions": [
+        "escalate"
+      ]
+    },
+    {
+      "idx": 304,
+      "true_label": "escalate",
+      "pred": "escalate",
+      "probs": {
+        "reflect": 0.11000825464725494,
+        "replan": 0.3362123370170593,
+        "escalate": 0.5537793636322021
+      },
+      "cls_ok": 1,
+      "solve_ok": 1,
+      "successful_actions": [
+        "escalate"
+      ]
+    },
+    {
+      "idx": 305,
+      "true_label": "reflect",
+      "pred": "reflect",
+      "probs": {
+        "reflect": 0.6727010607719421,
+        "replan": 0.16876184940338135,
+        "escalate": 0.1585370898246765
+      },
+      "cls_ok": 1,
+      "solve_ok": 1,
+      "successful_actions": [
+        "reflect"
+      ]
+    },
+    {
+      "idx": 306,
+      "true_label": "reflect",
+      "pred": "reflect",
+      "probs": {
+        "reflect": 0.68537437915802,
+        "replan": 0.18169483542442322,
+        "escalate": 0.13293078541755676
+      },
+      "cls_ok": 1,
+      "solve_ok": 1,
+      "successful_actions": [
+        "reflect",
+        "replan",
+        "escalate",
+        "escalate"
+      ]
+    },
+    {
+      "idx": 307,
+      "true_label": "reflect",
+      "pred": "replan",
+      "probs": {
+        "reflect": 0.1970914602279663,
+        "replan": 0.413995623588562,
+        "escalate": 0.3889128863811493
+      },
+      "cls_ok": 0,
+      "solve_ok": 0,
+      "successful_actions": [
+        "reflect"
+      ]
+    },
+    {
+      "idx": 308,
+      "true_label": "escalate",
+      "pred": "reflect",
+      "probs": {
+        "reflect": 0.48923754692077637,
+        "replan": 0.20039092004299164,
+        "escalate": 0.3103715181350708
+      },
+      "cls_ok": 0,
+      "solve_ok": 0,
+      "successful_actions": [
+        "escalate"
+      ]
+    },
+    {
+      "idx": 309,
+      "true_label": "reflect",
+      "pred": "replan",
+      "probs": {
+        "reflect": 0.3386702835559845,
+        "replan": 0.45751434564590454,
+        "escalate": 0.20381537079811096
+      },
+      "cls_ok": 0,
+      "solve_ok": 1,
+      "successful_actions": [
+        "reflect",
+        "replan",
+        "escalate"
+      ]
+    },
+    {
+      "idx": 310,
+      "true_label": "escalate",
+      "pred": "reflect",
+      "probs": {
+        "reflect": 0.7095665335655212,
+        "replan": 0.1361524760723114,
+        "escalate": 0.15428096055984497
+      },
+      "cls_ok": 0,
+      "solve_ok": 0,
+      "successful_actions": [
+        "escalate"
+      ]
+    },
+    {
+      "idx": 311,
+      "true_label": "escalate",
+      "pred": "escalate",
+      "probs": {
+        "reflect": 0.1353040337562561,
+        "replan": 0.39151519536972046,
+        "escalate": 0.47318074107170105
+      },
+      "cls_ok": 1,
+      "solve_ok": 1,
+      "successful_actions": [
+        "escalate"
+      ]
+    },
+    {
+      "idx": 312,
+      "true_label": "replan",
+      "pred": "replan",
+      "probs": {
+        "reflect": 0.15794268250465393,
+        "replan": 0.42102867364883423,
+        "escalate": 0.42102867364883423
+      },
+      "cls_ok": 1,
+      "solve_ok": 1,
+      "successful_actions": [
+        "proceed",
+        "replan",
+        "escalate",
+        "escalate"
+      ]
+    },
+    {
+      "idx": 313,
+      "true_label": "reflect",
+      "pred": "replan",
+      "probs": {
+        "reflect": 0.1970914602279663,
+        "replan": 0.413995623588562,
+        "escalate": 0.3889128863811493
+      },
+      "cls_ok": 0,
+      "solve_ok": 0,
+      "successful_actions": [
+        "reflect"
+      ]
+    },
+    {
+      "idx": 314,
+      "true_label": "escalate",
+      "pred": "escalate",
+      "probs": {
+        "reflect": 0.13303318619728088,
+        "replan": 0.365884393453598,
+        "escalate": 0.5010823607444763
+      },
+      "cls_ok": 1,
+      "solve_ok": 1,
+      "successful_actions": [
+        "escalate"
+      ]
+    },
+    {
+      "idx": 315,
+      "true_label": "escalate",
+      "pred": "replan",
+      "probs": {
+        "reflect": 0.22273710370063782,
+        "replan": 0.41288936138153076,
+        "escalate": 0.3643735647201538
+      },
+      "cls_ok": 0,
+      "solve_ok": 0,
+      "successful_actions": [
+        "escalate"
+      ]
+    },
+    {
+      "idx": 316,
+      "true_label": "escalate",
+      "pred": "escalate",
+      "probs": {
+        "reflect": 0.1156720295548439,
+        "replan": 0.38675448298454285,
+        "escalate": 0.49757346510887146
+      },
+      "cls_ok": 1,
+      "solve_ok": 1,
+      "successful_actions": [
+        "escalate"
+      ]
+    },
+    {
+      "idx": 317,
+      "true_label": "replan",
+      "pred": "escalate",
+      "probs": {
+        "reflect": 0.12845535576343536,
+        "replan": 0.38200175762176514,
+        "escalate": 0.4895428717136383
+      },
+      "cls_ok": 0,
+      "solve_ok": 0,
+      "successful_actions": [
+        "replan"
+      ]
+    },
+    {
+      "idx": 318,
+      "true_label": "reflect",
+      "pred": "reflect",
+      "probs": {
+        "reflect": 0.5048795342445374,
+        "replan": 0.2162994146347046,
+        "escalate": 0.2788209617137909
+      },
+      "cls_ok": 1,
+      "solve_ok": 1,
+      "successful_actions": [
+        "reflect",
+        "replan"
+      ]
+    },
+    {
+      "idx": 319,
+      "true_label": "replan",
+      "pred": "replan",
+      "probs": {
+        "reflect": 0.1810818314552307,
+        "replan": 0.4218510091304779,
+        "escalate": 0.397067129611969
+      },
+      "cls_ok": 1,
+      "solve_ok": 1,
+      "successful_actions": [
+        "replan",
+        "escalate"
+      ]
+    },
+    {
+      "idx": 320,
+      "true_label": "escalate",
+      "pred": "escalate",
+      "probs": {
+        "reflect": 0.1061251237988472,
+        "replan": 0.3507000505924225,
+        "escalate": 0.5431748628616333
+      },
+      "cls_ok": 1,
+      "solve_ok": 1,
+      "successful_actions": [
+        "escalate"
+      ]
+    },
+    {
+      "idx": 321,
+      "true_label": "escalate",
+      "pred": "escalate",
+      "probs": {
+        "reflect": 0.16528534889221191,
+        "replan": 0.404319167137146,
+        "escalate": 0.4303955137729645
+      },
+      "cls_ok": 1,
+      "solve_ok": 1,
+      "successful_actions": [
+        "escalate"
+      ]
+    },
+    {
+      "idx": 322,
+      "true_label": "replan",
+      "pred": "escalate",
+      "probs": {
+        "reflect": 0.15716512501239777,
+        "replan": 0.3951130509376526,
+        "escalate": 0.4477217495441437
+      },
+      "cls_ok": 0,
+      "solve_ok": 1,
+      "successful_actions": [
+        "replan",
+        "escalate"
+      ]
+    },
+    {
+      "idx": 323,
+      "true_label": "escalate",
+      "pred": "escalate",
+      "probs": {
+        "reflect": 0.12062181532382965,
+        "replan": 0.3715413808822632,
+        "escalate": 0.5078368186950684
+      },
+      "cls_ok": 1,
+      "solve_ok": 1,
+      "successful_actions": [
+        "escalate"
+      ]
+    },
+    {
+      "idx": 324,
+      "true_label": "escalate",
+      "pred": "escalate",
+      "probs": {
+        "reflect": 0.14334118366241455,
+        "replan": 0.40201032161712646,
+        "escalate": 0.45464852452278137
+      },
+      "cls_ok": 1,
+      "solve_ok": 1,
+      "successful_actions": [
+        "escalate"
+      ]
+    },
+    {
+      "idx": 325,
+      "true_label": "replan",
+      "pred": "escalate",
+      "probs": {
+        "reflect": 0.14054466784000397,
+        "replan": 0.36312392354011536,
+        "escalate": 0.49633151292800903
+      },
+      "cls_ok": 0,
+      "solve_ok": 1,
+      "successful_actions": [
+        "replan",
+        "escalate",
+        "escalate"
+      ]
+    },
+    {
+      "idx": 326,
+      "true_label": "escalate",
+      "pred": "escalate",
+      "probs": {
+        "reflect": 0.1298675537109375,
+        "replan": 0.40790989995002747,
+        "escalate": 0.46222248673439026
+      },
+      "cls_ok": 1,
+      "solve_ok": 1,
+      "successful_actions": [
+        "escalate"
+      ]
+    },
+    {
+      "idx": 327,
+      "true_label": "replan",
+      "pred": "replan",
+      "probs": {
+        "reflect": 0.1970914602279663,
+        "replan": 0.413995623588562,
+        "escalate": 0.3889128863811493
+      },
+      "cls_ok": 1,
+      "solve_ok": 0,
+      "successful_actions": [
+        "escalate"
+      ]
+    }
+  ]
+}

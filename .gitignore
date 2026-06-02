@@ -1,0 +1,7 @@
+sft_runs/outputs/
+LLaMA-Factory/
+wandb/
+installers/
+downloads/
+dl/
+*.log

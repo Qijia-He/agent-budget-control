@@ -1,0 +1,16 @@
+[
+  {
+    "file": "router_no_reason_v1_3cls_bench_random.json",
+    "cls_acc": 0.5475,
+    "solve_rate": 0.7652,
+    "n": 400,
+    "n_sa": 328
+  },
+  {
+    "file": "router_no_reason_v1_3cls_bench_stratified.json",
+    "cls_acc": 0.51,
+    "solve_rate": 0.7104,
+    "n": 400,
+    "n_sa": 297
+  }
+]

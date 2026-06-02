@@ -1,0 +1,199 @@
+{
+  "n_total": 328,
+  "n_calib": 164,
+  "n_test": 164,
+  "delta": 0.05,
+  "calib_eps_cost": 1.0512530344204238,
+  "calib_eps_fail": 0.095568457674584,
+  "test_argmax": {
+    "cost": 10.317073170731707,
+    "fail": 0.2682926829268293,
+    "solve": 0.7317073170731707
+  },
+  "calib_argmax_cost": 10.987804878048781,
+  "calib_argmax_fail": 0.20121951219512196,
+  "mode_a": [
+    {
+      "C": 3,
+      "feasible": false,
+      "test": null
+    },
+    {
+      "C": 4,
+      "target": 2.949,
+      "lambda": 0.02964330803264271,
+      "calib_cost": 2.9390243902439024,
+      "calib_fail": 0.4878048780487805,
+      "feasible": true,
+      "test": {
+        "cost": 2.4695121951219514,
+        "fail": 0.5121951219512195,
+        "solve": 0.4878048780487805
+      },
+      "guarantee_held": true
+    },
+    {
+      "C": 5,
+      "target": 3.949,
+      "lambda": 0.025183466347781094,
+      "calib_cost": 3.9451219512195124,
+      "calib_fail": 0.40853658536585363,
+      "feasible": true,
+      "test": {
+        "cost": 3.1402439024390243,
+        "fail": 0.5,
+        "solve": 0.5
+      },
+      "guarantee_held": true
+    },
+    {
+      "C": 6,
+      "target": 4.949,
+      "lambda": 0.022284234111959286,
+      "calib_cost": 4.817073170731708,
+      "calib_fail": 0.3597560975609756,
+      "feasible": true,
+      "test": {
+        "cost": 3.408536585365854,
+        "fail": 0.49390243902439024,
+        "solve": 0.5060975609756098
+      },
+      "guarantee_held": true
+    },
+    {
+      "C": 7,
+      "target": 5.949,
+      "lambda": 0.0183573148467324,
+      "calib_cost": 5.890243902439025,
+      "calib_fail": 0.3231707317073171,
+      "feasible": true,
+      "test": {
+        "cost": 4.951219512195122,
+        "fail": 0.4329268292682927,
+        "solve": 0.5670731707317074
+      },
+      "guarantee_held": true
+    },
+    {
+      "C": 8,
+      "target": 6.949,
+      "lambda": 0.014467244798486883,
+      "calib_cost": 6.896341463414634,
+      "calib_fail": 0.3231707317073171,
+      "feasible": true,
+      "test": {
+        "cost": 6.225609756097561,
+        "fail": 0.38414634146341464,
+        "solve": 0.6158536585365854
+      },
+      "guarantee_held": true
+    },
+    {
+      "C": 9,
+      "target": 7.949,
+      "lambda": 0.01088073036887429,
+      "calib_cost": 7.902439024390244,
+      "calib_fail": 0.31097560975609756,
+      "feasible": true,
+      "test": {
+        "cost": 7.365853658536586,
+        "fail": 0.3475609756097561,
+        "solve": 0.6524390243902439
+      },
+      "guarantee_held": true
+    },
+    {
+      "C": 10,
+      "target": 8.949,
+      "lambda": 0.009012243964455345,
+      "calib_cost": 8.841463414634147,
+      "calib_fail": 0.2865853658536585,
+      "feasible": true,
+      "test": {
+        "cost": 8.103658536585366,
+        "fail": 0.3231707317073171,
+        "solve": 0.6768292682926829
+      },
+      "guarantee_held": true
+    },
+    {
+      "C": 11,
+      "target": 9.949,
+      "lambda": 0.004605615680867975,
+      "calib_cost": 9.914634146341463,
+      "calib_fail": 0.22560975609756098,
+      "feasible": true,
+      "test": {
+        "cost": 9.042682926829269,
+        "fail": 0.32926829268292684,
+        "solve": 0.6707317073170731
+      },
+      "guarantee_held": true
+    },
+    {
+      "C": 12,
+      "target": 10.949,
+      "lambda": 0.0012004646387967196,
+      "calib_cost": 10.920731707317072,
+      "calib_fail": 0.20121951219512196,
+      "feasible": true,
+      "test": {
+        "cost": 10.25,
+        "fail": 0.27439024390243905,
+        "solve": 0.725609756097561
+      },
+      "guarantee_held": true
+    }
+  ],
+  "mode_b": [
+    {
+      "alpha": 0.3,
+      "feasible": false,
+      "test": null
+    },
+    {
+      "alpha": 0.35,
+      "feasible": false,
+      "test": null
+    },
+    {
+      "alpha": 0.4,
+      "feasible": false,
+      "test": null
+    },
+    {
+      "alpha": 0.45,
+      "feasible": false,
+      "test": null
+    },
+    {
+      "alpha": 0.5,
+      "feasible": false,
+      "test": null
+    },
+    {
+      "alpha": 0.55,
+      "feasible": false,
+      "test": null
+    },
+    {
+      "alpha": 0.6,
+      "feasible": false,
+      "test": null
+    },
+    {
+      "alpha": 0.65,
+      "target": 0.554,
+      "lambda": 0.06880187852816148,
+      "calib_fail": 0.5487804878048781,
+      "calib_cost": 2.0,
+      "feasible": true,
+      "test": {
+        "cost": 2.0,
+        "fail": 0.5487804878048781,
+        "solve": 0.4512195121951219
+      },
+      "guarantee_held": true
+    }
+  ]
+}

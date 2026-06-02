@@ -1,0 +1,30 @@
+[
+  {
+    "file": "router_no_reason_v1_4cls_bench_random.json",
+    "cls_acc": 0.625,
+    "solve_rate": 0.0975,
+    "n": 400,
+    "n_sa": 318
+  },
+  {
+    "file": "router_no_reason_v1_4cls_bench_stratified.json",
+    "cls_acc": 0.6075,
+    "solve_rate": 0.0909,
+    "n": 400,
+    "n_sa": 319
+  },
+  {
+    "file": "router_no_reason_v1_archB_4cls_bench_random.json",
+    "cls_acc": 0.13,
+    "solve_rate": 0.2252,
+    "n": 400,
+    "n_sa": 302
+  },
+  {
+    "file": "router_no_reason_v1_archB_4cls_bench_stratified.json",
+    "cls_acc": 0.13,
+    "solve_rate": 0.2082,
+    "n": 400,
+    "n_sa": 293
+  }
+]
