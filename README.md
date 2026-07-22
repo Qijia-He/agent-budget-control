@@ -1,6 +1,6 @@
 # Budget-Calibrated Recovery Routing for Coding Agents
 
-**[Paper (arXiv)](https://arxiv.org/abs/TODO)**
+**[Paper (arXiv)](https://arxiv.org/abs/2607.19338)**
 
 When a cheap coding agent fails, should it reflect on the error, replan from scratch, or escalate to a stronger model? We train a supervised **recovery router** that picks among these three actions based on the problem and execution feedback, and wrap it with a **Conformal Risk Control (CRC)** layer that maps any target cost budget to a certified operating point — without retraining the router.
 
@@ -144,12 +144,13 @@ python conformal/scripts/nano_predict.py    --eval_json <eval.json>
 ## Citation
 
 ```bibtex
-@article{he2025budget,
-  title   = {Budget-Calibrated Recovery Routing for Coding Agents},
-  author  = {He, Qijia and Cheng, Jiayi and Le, Chenqian and Wang, Rui and
-             Liu, Xunmei and Chen, Yixian and Mei, Jie and Wang, Zhihao and
-             Chen, Xupeng and Chen, Yuhuan and Wang, Tao},
-  journal = {arXiv preprint},
-  year    = {2025}
+@misc{he2026coderescuebudgetcalibratedrecoveryrouting,
+      title={CodeRescue: Budget-Calibrated Recovery Routing for Coding Agents}, 
+      author={Qijia He and Jiayi Cheng and Chenqian Le and Rui Wang and Xunmei Liu and Yixian Chen and Jie Mei and Zhihao Wang and Xupeng Chen and Yuhuan Chen and Tao Wang},
+      year={2026},
+      eprint={2607.19338},
+      archivePrefix={arXiv},
+      primaryClass={cs.AI},
+      url={https://arxiv.org/abs/2607.19338}, 
 }
 ```
